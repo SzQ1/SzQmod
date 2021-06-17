@@ -1,0 +1,424 @@
+[
+  {
+    "abstract": "turret_manual_blaze",
+    "copy-from": "turret",
+    "type": "vehicle_part",
+    "broken_symbol": "#",
+    "description": "This heavy weapon is mounted on a turret, and can be fired from your vehicle controls."
+  },
+  
+      {    "id": "Blaze_mounted_coilgun",
+	"looks_like": "mounted_coilgun",
+    "copy-from": "turret",
+    "type": "vehicle_part",
+    "name": { "str": "mounted coilgun (Blaze2021)" },
+    "item": "Blaze_coilgun",
+
+    "color": "magenta",
+    "broken_color": "magenta",
+    "breaks_into": [ { "item": "scrap", "count": 13 }, { "item": "steel_chunk", "count": 4 }, { "item": "steel_lump", "count": 1 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 5 ], [ "electronics", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ] }
+    }
+  },
+  
+    {    "id": "Blaze_shardgun",        	 "//1": "BB",
+	"looks_like": "shardgun",
+    "copy-from": "turret_manual_blaze",
+    "type": "vehicle_part",
+    "name": "splintergun (Blaze2021)",
+    "item": "Blaze_shardgun",
+    "color": "blue",
+    "broken_color": "blue",
+    "breaks_into": [ { "item": "Blaze_shardgun", "count": [ 0, 1 ] } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 6 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 4 ] ], "time": "45 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 5 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
+    }
+  },
+    {    "id": "Blaze_vortexaccelerator",
+	"looks_like": "vortexaccelerator",
+    "copy-from": "turret_manual_blaze",
+    "type": "vehicle_part",
+    "name": "vortex accelerator (Blaze2021)",
+    "item": "Blaze_vortexaccelerator",
+    "color": "pink",
+    "broken_color": "pink",
+    "size": 1000,
+    "folded_volume": 10,
+    "breaks_into": [ { "item": "Blaze_vortexaccelerator", "count": [ 0, 1 ] } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 4 ] ], "time": "25 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "20 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "15 m", "using": [ [ "welding_standard", 5 ] ] }
+    }
+  },
+  
+  {    "id": "Blaze_nailer",  	          "//1": "//nail" ,
+    "looks_like": "nailer",
+    "copy-from": "turret_manual_blaze",
+    "type": "vehicle_part",
+    "name": "perforator (Blaze2021)",
+    "item": "Blaze_nailer",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "breaks_into": [ { "item": "Blaze_nailer", "count": [ 0, 1 ] } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 5 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "45 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 4 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
+    }
+  },
+  {    "id": "Blaze_needler",
+    "looks_like": "needler",
+    "copy-from": "turret_manual_blaze",
+    "type": "vehicle_part",
+    "name": "needler (Blaze2021)",
+    "item": "Blaze_needler",
+    "color": "blue",
+    "broken_color": "blue",
+    "breaks_into": [ { "item": "Blaze_needler", "count": [ 0, 1 ] } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 5 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "45 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 4 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
+    }
+  },
+   	
+    {    "id": "Blaze_bolter",  	      "//1": "//bolt" ,
+	"looks_like": "bolter",
+    "copy-from": "turret_manual_blaze",
+    "type": "vehicle_part",
+    "name": "storm bolter (Blaze2021)",
+    "item": "Blaze_bolter",
+    "color": "light_gray",
+    "broken_color": "light_gray",
+    "breaks_into": [ { "item": "Blaze_bolter", "count": [ 0, 1 ] } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 4 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "45 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
+    }
+  },
+    {    "id": "Blaze_vortexbolter",
+	"looks_like": "vortexbolter",
+    "copy-from": "turret_manual_blaze",
+    "type": "vehicle_part",
+    "name": "vortex bolter turret (Blaze2021)",
+    "item": "Blaze_vortexbolter",
+    "color": "pink",
+    "broken_color": "pink",
+    "size": 10,
+    "folded_volume": 10,
+    "breaks_into": [ { "item": "Blaze_vortexbolter", "count": [ 0, 1 ] } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 4 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "45 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
+    }
+  },
+
+  {    "id": "Blaze_scorpion",		     "//1": "//Blaze_hbolt" ,
+    "looks_like": "scorpion",
+    "copy-from": "turret_manual_blaze",
+    "type": "vehicle_part",
+    "name": "scorpion ballista (Blaze2021)",
+    "item": "Blaze_scorpion",
+    "color": "brown",
+    "broken_color": "brown",
+    "breaks_into": [ { "item": "Blaze_scorpion", "count": [ 0, 1 ] } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 4 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "45 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
+    }
+  },
+
+    {    "id": "Blaze_rslauncher",  	 "//1": "//harpoon" ,
+	"looks_like": "rslauncher",
+    "copy-from": "turret_manual_blaze",
+    "type": "vehicle_part",
+    "name": "rotary speargun (Blaze2021)",
+    "item": "Blaze_rslauncher",
+    "color": "light_gray",
+    "broken_color": "light_gray",
+    "breaks_into": [ { "item": "Blaze_rslauncher", "count": [ 0, 1 ] } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 5 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "45 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 4 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
+    }
+  },
+    {    "id": "Blaze_slauncher",
+	"looks_like": "slauncher",
+    "copy-from": "turret_manual_blaze",
+    "type": "vehicle_part",
+    "name": "speargun (Blaze2021)",
+    "item": "Blaze_slauncher",
+    "color": "light_gray",
+    "broken_color": "light_gray",
+    "breaks_into": [ { "item": "Blaze_slauncher", "count": [ 0, 1 ] } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 1 ] ], "time": "45 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 2 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
+    }
+  },
+  
+    {    "id": "Blaze_tiharturret",  	 "//1": "//pebble" ,
+	"looks_like": "tiharturret",
+    "copy-from": "turret_manual_blaze",
+    "type": "vehicle_part",
+    "name": "avalanche rifle (Blaze2021)",
+    "item": "Blaze_tiharturret",
+    "color": "light_gray",
+    "broken_color": "light_gray",
+    "breaks_into": [ { "item": "Blaze_tiharturret", "count": [ 0, 1 ] } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 4 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "45 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
+    }
+  },
+    {    "id": "Blaze_vortexrifle",
+	"looks_like": "vortexrifle",
+    "copy-from": "turret_manual_blaze",
+    "type": "vehicle_part",
+    "name": "vortex rifle (Blaze2021)",
+    "item": "Blaze_vortexrifle",
+    "color": "pink",
+    "broken_color": "pink",
+    "difficulty": 4,
+    "size": 40,
+    "folded_volume": 10,
+    "breaks_into": [ { "item": "Blaze_vortexrifle", "count": [ 0, 1 ] } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 4 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "45 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
+    }
+  },
+  
+   {    "id": "Blaze_mounted_rebar_rifle",		 "//1": "//metal_rail" ,
+	"looks_like": "mounted_rebar_rifle",
+    "copy-from": "turret",
+    "type": "vehicle_part",
+    "name": { "str": "mounted ferromagnetic rail rifle (Blaze2021)" },
+    "item": "Blaze_rebar_rifle",
+    "color": "magenta",
+    "broken_color": "magenta",
+    "breaks_into": [ { "item": "scrap", "count": 9 }, { "item": "steel_chunk", "count": 5 }, { "item": "steel_lump", "count": 2 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 5 ], [ "electronics", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ] }
+    }
+  },
+   {    "id": "Blaze_railturret",
+    "looks_like": "railturret",
+    "copy-from": "turret_manual_blaze",
+    "type": "vehicle_part",
+    "name": "hypervelocity driver (Blaze2021)",
+    "item": "Blaze_railturret",
+    "color": "magenta",
+    "broken_color": "magenta",
+    "breaks_into": [ { "item": "Blaze_railturret", "count": [ 0, 1 ] } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 5 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "45 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 4 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
+    }
+  },
+   {    "id": "Blaze_mounted_heavy_rail_rifle",
+    "looks_like": "mounted_heavy_rail_rifle",
+    "copy-from": "turret",
+    "type": "vehicle_part",
+    "name": { "str": "mounted heavy rail rifle (Blaze2021)" },
+    "item": "Blaze_heavy_rail_rifle",
+    "color": "magenta",
+    "broken_color": "magenta",
+    "breaks_into": [ { "item": "scrap", "count": 30 }, { "item": "steel_chunk", "count": 10 }, { "item": "steel_lump", "count": 6 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 5 ], [ "electronics", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ] }
+    }
+  },
+   {    "id": "Blaze_vortexcannon",
+    "looks_like": "vortexcannon",
+    "copy-from": "turret_manual_blaze",
+    "type": "vehicle_part",
+    "name": "vortex cannon (Blaze2021)",
+    "item": "Blaze_vortexcannon",
+    "color": "pink",
+    "broken_color": "pink",
+    "size": 10,
+    "folded_volume": 20,
+    "breaks_into": [ { "item": "Blaze_vortexcannon", "count": [ 0, 1 ] } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 4 ] ], "time": "25 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "20 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "15 m", "using": [ [ "welding_standard", 5 ] ] }
+    }
+  },
+
+  {    "id": "Blaze_cutter",		 "//1": "//Blaze_ripdisk" ,
+    "looks_like": "cutter",
+    "copy-from": "turret_manual_blaze",
+    "type": "vehicle_part",
+    "name": "lacerator (Blaze2021)",
+    "item": "Blaze_cutter",
+    "broken_symbol": "x",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "power": -1750,
+    "breaks_into": [ { "item": "Blaze_cutter", "count": [ 0, 1 ] } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 5 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "45 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 4 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
+    },
+    "extend": { "flags": [ "EXTRA_DRAG" ] }
+  },
+  {    "id": "Blaze_ripper",
+    "looks_like": "ripper",
+    "copy-from": "turret_manual_blaze",
+    "type": "vehicle_part",
+    "name": "ripper (Blaze2021)",
+    "item": "Blaze_ripper",
+    "broken_symbol": "x",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "power": -8750,
+    "breaks_into": [ { "item": "Blaze_ripper", "count": [ 0, 1 ] } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 5 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "45 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 4 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
+    },
+    "extend": { "flags": [ "EXTRA_DRAG" ] }
+  },
+
+  {    "id": "Blaze_lasgun",		 "//1": "//Lasers" ,
+    "looks_like": "lasgun",
+    "copy-from": "turret_manual_blaze",
+    "type": "vehicle_part",
+    "name": "laser cannon (Blaze2021)",
+    "item": "Blaze_lasgun",
+    "color": "blue",
+    "broken_color": "blue",
+    "breaks_into": [ { "item": "Blaze_lasgun", "count": [ 0, 1 ] } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 6 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 4 ] ], "time": "45 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 5 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
+    }
+  },
+  {    "id": "Blaze_lasgunp",
+    "looks_like": "lasgunp",
+    "copy-from": "turret_manual_blaze",
+    "type": "vehicle_part",
+    "name": "pulse laser (Blaze2021)",
+    "item": "Blaze_lasgunp",
+    "color": "blue",
+    "broken_color": "blue",
+    "breaks_into": [ { "item": "Blaze_lasgun", "count": [ 0, 1 ] } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 6 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 4 ] ], "time": "45 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 5 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
+    }
+  },
+  {    "id": "Blaze_lasgunx",
+    "looks_like": "lasgunx",
+    "copy-from": "turret_manual_blaze",
+    "type": "vehicle_part",
+    "name": "turbolaser (Blaze2021)",
+    "item": "Blaze_lasgunx",
+    "color": "magenta",
+    "broken_color": "magenta",
+    "breaks_into": [ { "item": "Blaze_lasgunx", "count": [ 0, 1 ] } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 6 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 4 ] ], "time": "45 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 5 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
+    }
+  },
+
+  {    "id": "Blaze_cangun",		 "//1": "//Blaze_h_projectile" ,
+    "looks_like": "cangun",
+    "copy-from": "turret_manual_blaze",
+    "type": "vehicle_part",
+    "name": "slingshot cannon (Blaze2021)",
+    "item": "Blaze_cangun",
+    "color": "brown",
+    "broken_color": "brown",
+    "breaks_into": [ { "item": "Blaze_cangun", "count": [ 0, 1 ] } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 4 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "45 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
+    }
+  },
+
+  {    "id": "Blaze_gattler",		 "//1": "//other shit" ,
+    "looks_like": "gattler",
+    "copy-from": "turret_manual_blaze",
+    "type": "vehicle_part",
+    "name": "rotary cannon (Blaze2021)",
+    "item": "Blaze_gattler",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "breaks_into": [ { "item": "Blaze_gattler", "count": [ 0, 1 ] } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 5 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "45 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 4 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
+    }
+  },
+
+  {    "id": "Blaze_flamethrower3",
+    "looks_like": "flamethrower",
+    "copy-from": "turret_manual_blaze",
+    "type": "vehicle_part",
+    "name": "RM451 flamethrower (Blaze2021)",
+    "item": "rm451_flamethrower",
+    "color": "red",
+    "broken_color": "red",
+    "breaks_into": [ { "item": "rm451_flamethrower", "count": [ 0, 1 ] } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 4 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "45 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
+    },
+    "extend": { "flags": [ "USE_TANKS" ] }
+  }, 
+
+  {    "id": "Blaze_teslagun",
+    "looks_like": "teslagun",
+    "copy-from": "turret_manual_blaze",
+    "type": "vehicle_part",
+    "name": "tesla cannon (Blaze2021)",
+    "item": "Blaze_teslagun",
+    "color": "blue",
+    "broken_color": "blue",
+    "breaks_into": [ { "item": "Blaze_teslagun", "count": [ 0, 1 ] } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 1 ] ], "time": "45 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 2 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
+    }
+  },
+    {
+    "id": "mounted_mininuke_launcher",
+    "copy-from": "turret",
+    "type": "vehicle_part",
+    "name": { "str": "mounted mininuke launcher" },
+    "item": "mininuke_launcher",
+    "color": "green",
+    "broken_color": "green",
+    "breaks_into": [ { "item": "scrap", "count": 27 }, { "item": "steel_chunk", "count": 10 }, { "item": "steel_lump", "count": 6 } ],
+    "requirements": { "install": { "skills": [ [ "mechanics", 5 ], [ "launcher", 3 ] ] }, "removal": { "skills": [ [ "mechanics", 3 ] ] } }
+  }
+
+]

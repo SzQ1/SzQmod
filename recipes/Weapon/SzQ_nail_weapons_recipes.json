@@ -1,0 +1,70 @@
+[
+  
+  {
+    "result": "Blaze_coilgun",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "electronics",
+    "skills_required": [ [ "mechanics", 5 ], [ "electronics", 4 ] ],
+    "difficulty": 4,
+    "time": "25 m",
+    "reversible": true,
+    "book_learn": [ [ "advanced_electronics", 3 ], [ "textbook_electronics", 3 ], [ "textbook_anarch", 4 ] ],
+    "qualities": [ { "id": "SAW_M_FINE", "level": 1 } ],
+    "tools": [ [ [ "soldering_standard", 10, "LIST" ], [ "small_repairkit", 10 ], [ "large_repairkit", 5 ] ] ],
+    "components": [ [ [ "pipe", 1 ] ], [ [ "power_supply", 1 ] ], [ [ "amplifier", 1 ] ], [ [ "scrap", 6 ] ], [ [ "cable", 20 ] ] ]
+  },
+      {
+    "result": "Blaze_nailrifle",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_PARTS",
+    "skill_used": "mechanics",
+    "difficulty": 3,
+    "skills_required": [ "gun", 3 ],
+    "time": 30000,
+    "autolearn": true,
+    "using": [ [ "soldering_standard", 40 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "SAW_M", "level": 1 } ],
+    "components": [ [ [ "foot_crank", 1 ] ], [ [ "scrap", 12 ], [ "steel_chunk", 4 ] ], [ [ "chain", 1 ] ] ]
+  },
+    {
+    "result": "Blaze_nailer",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_PARTS",
+    "skill_used": "electronics",
+    "difficulty": 5,
+    "skills_required": [ "mechanics", 3 ],
+    "time": 120000,
+    "autolearn": true,
+    "using": [ [ "soldering_standard", 30 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
+    "components": [
+      [ [ "UPS_off", 1 ], [ "small_storage_battery", 1 ] ],
+      [ [ "scrap", 8 ], [ "steel_chunk", 3 ] ],
+      [ [ "cable", 100 ] ],
+      [ [ "plastic_chunk", 10 ] ],
+      [ [ "amplifier", 5 ] ],
+      [ [ "power_supply", 5 ] ],
+      [ [ "Blaze_coilgun", 1 ] ]
+    ]
+  },
+    {
+    "result": "Blaze_needler",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_PARTS",
+    "skill_used": "mechanics",
+    "difficulty": 3,
+    "skills_required": [ "gun", 3 ],
+    "time": 30000,
+    "autolearn": true,
+    "using": [ [ "soldering_standard", 40 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
+    "components": [ [ [ "foot_crank", 1 ] ], [ [ "scrap", 12 ], [ "steel_chunk", 4 ] ], [ [ "Blaze_nailrifle", 1 ] ] ]
+  }
+   
+   
+]

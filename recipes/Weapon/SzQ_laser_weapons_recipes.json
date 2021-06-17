@@ -1,0 +1,71 @@
+[
+{
+    "result": "Blaze_lasgun",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_PARTS",
+    "skill_used": "electronics",
+    "difficulty": 5,
+    "skills_required": [ "mechanics", 3 ],
+    "time": 50000,
+    "autolearn": true,
+    "using": [ [ "welding_standard", 3 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
+    "components": [
+      [ [ "lens", 2 ] ],
+      [ [ "scrap", 9 ], [ "steel_chunk", 3 ] ],
+      [ [ "cable", 50 ] ],
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "amplifier", 2 ] ],
+      [ [ "power_supply", 2 ] ],
+      [ [ "cerberus_laser", 1 ], [ "bio_blaster", 1 ] ]
+    ]
+  },
+  {
+    "result": "Blaze_lasgunp",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_PARTS",
+    "skill_used": "electronics",
+    "difficulty": 4,
+    "skills_required": [ "mechanics", 3 ],
+    "time": 30000,
+    "autolearn": true,
+    "using": [ [ "soldering_standard", 40 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
+    "components": [
+      [ [ "v29", 1 ], [ "laser_rifle", 1 ] ],
+      [ [ "lens", 2 ] ],
+      [ [ "UPS_off", 1 ], [ "small_storage_battery", 1 ] ],
+      [ [ "scrap", 4 ] ],
+      [ [ "cable", 20 ] ],
+      [ [ "e_scrap", 4 ] ],
+      [ [ "amplifier", 4 ] ],
+      [ [ "power_supply", 4 ] ],
+      [ [ "plastic_chunk", 4 ] ]
+    ]
+  },
+  {
+    "result": "Blaze_lasgunx",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_PARTS",
+    "skill_used": "electronics",
+    "difficulty": 6,
+    "skills_required": [ "mechanics", 3 ],
+    "time": 60000,
+    "autolearn": true,
+    "using": [ [ "welding_standard", 3 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
+    "components": [
+      [ [ "UPS_off", 2 ], [ "small_storage_battery", 2 ] ],
+      [ [ "lens", 4 ] ],
+      [ [ "scrap", 9 ], [ "steel_chunk", 3 ] ],
+      [ [ "cable", 50 ] ],
+      [ [ "plastic_chunk", 8 ] ],
+      [ [ "amplifier", 8 ] ],
+      [ [ "power_supply", 8 ] ],
+      [ [ "cerberus_laser", 1 ], [ "bio_blaster", 1 ] ]
+    ]
+  }
+]

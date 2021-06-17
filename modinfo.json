@@ -1,0 +1,22 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "SzQmod",
+    "name": "SzQmod",
+    "authors": [ "SzQ" ],
+    "maintainers": [ "SzQ" ],
+    "description": "Weapons from Blazemod, pneumatic weapons",
+    "category": "vehicles",
+    "dependencies": [ "dda" ]
+  },
+  
+  
+
+
+  {
+    "type": "ITEM_BLACKLIST",
+    "items": [
+
+	]
+  }
+]

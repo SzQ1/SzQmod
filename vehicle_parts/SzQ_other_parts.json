@@ -1,0 +1,282 @@
+[
+  {
+    "id": "Blaze_engine_steam_large",
+	"looks_like": "engine_steam_large",
+    "copy-from": "steam_engine",
+    "type": "vehicle_part",
+    "item": "Blaze_steam_triple_large",
+    "durability": 200,
+    "epower": 0,
+    "power": 242450,
+    "energy_consumption": 485000,
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 30, 60 ] },
+      { "item": "steel_chunk", "count": [ 30, 60 ] },
+      { "item": "scrap", "count": [ 30, 60 ] },
+      { "item": "water", "count": [ 50, 120 ] }
+    ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 4 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "45 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 5 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
+    }
+  },
+  {
+    "id": "Blaze_engine_steam_giant",
+	"looks_like": "engine_steam_giant",
+    "copy-from": "steam_engine",
+    "type": "vehicle_part",
+    "item": "Blaze_steam_triple_giant",
+    "durability": 200,
+    "epower": 0,
+    "power": 447600,
+    "energy_consumption": 895250,
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 30, 60 ] },
+      { "item": "steel_chunk", "count": [ 30, 60 ] },
+      { "item": "scrap", "count": [ 30, 60 ] },
+      { "item": "water", "count": [ 50, 120 ] }
+    ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 4 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "45 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 5 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
+    }
+  },
+  {
+    "abstract": "steam_turbine",
+    "copy-from": "engine_combustion",
+    "type": "vehicle_part",
+    "fuel_type": "coal_lump",
+    "looks_like": "diesel_engine_v12",
+    "m2c": 75,
+    "//": "45% energy efficiency",
+    "description": "A closed cycle, external combustion steam turbine.  Burns coal from a bunker in the vehicle to produce steam.",
+    "extend": { "flags": [ "E_COLD_START" ] }
+  },
+  {
+    "id": "Blaze_engine_steam_turbine_small",
+	"looks_like": "engine_steam_turbine_small",
+    "copy-from": "steam_turbine",
+    "type": "vehicle_part",
+    "item": "Blaze_steam_turbine_small",
+    "durability": 200,
+    "epower": 0,
+    "power": 93250,
+    "energy_consumption": 207250,
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 30, 60 ] },
+      { "item": "steel_chunk", "count": [ 30, 60 ] },
+      { "item": "scrap", "count": [ 30, 60 ] },
+      { "item": "water", "count": [ 50, 120 ] }
+    ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 5 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "45 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 6 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
+    }
+  },
+  {
+    "id": "Blaze_engine_steam_turbine_medium",
+	"looks_like": "engine_steam_turbine_medium",
+    "copy-from": "steam_turbine",
+    "type": "vehicle_part",
+    "item": "Blaze_steam_turbine_medium",
+    "durability": 200,
+    "epower": 0,
+    "power": 149200,
+    "energy_consumption": 331750,
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 30, 60 ] },
+      { "item": "steel_chunk", "count": [ 30, 60 ] },
+      { "item": "scrap", "count": [ 30, 60 ] },
+      { "item": "water", "count": [ 50, 120 ] }
+    ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 5 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "45 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 6 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
+    }
+  },
+  {
+    "id": "Blaze_engine_steam_turbine_large",
+	"looks_like": "engine_steam_turbine_large",
+    "copy-from": "steam_turbine",
+    "type": "vehicle_part",
+    "item": "Blaze_steam_turbine_large",
+    "durability": 200,
+    "epower": 0,
+    "power": 242450,
+    "energy_consumption": 539000,
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 30, 60 ] },
+      { "item": "steel_chunk", "count": [ 30, 60 ] },
+      { "item": "scrap", "count": [ 30, 60 ] },
+      { "item": "water", "count": [ 50, 120 ] }
+    ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 5 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "45 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 6 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
+    }
+  },
+  {
+    "id": "Blaze_engine_steam_turbine_giant",
+	"looks_like": "engine_steam_turbine_giant",
+    "copy-from": "steam_turbine",
+    "type": "vehicle_part",
+    "item": "Blaze_steam_turbine_giant",
+    "durability": 200,
+    "epower": 0,
+    "power": 447600,
+    "energy_consumption": 994750,
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 30, 60 ] },
+      { "item": "steel_chunk", "count": [ 30, 60 ] },
+      { "item": "scrap", "count": [ 30, 60 ] },
+      { "item": "water", "count": [ 50, 120 ] }
+    ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 5 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "45 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 6 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
+    }
+  },
+
+  {
+    "id": "Blaze_solar_array",
+	"looks_like": "solar_array",
+    "type": "vehicle_part",
+    "name": "solar array (Blaze2021)",
+    "item": "Blaze_solar_array",
+    "location": "structure",
+    "symbol": "#",
+    "broken_symbol": "x",
+    "color": "yellow",
+    "broken_color": "yellow",
+    "durability": 165,
+    "epower": 375,
+    "damage_modifier": 10,
+    "folded_volume": "10 L",
+    "description": "A dozen solar panels set on a chassis reaching several meters high.  It keeps the fragile panels safely away from any potential threats and improves efficiency due to being able track the sun.  Will recharge the vehicle's electrical power when exposed to the sun.",
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 3, 6 ] },
+      { "item": "steel_chunk", "count": [ 6, 12 ] },
+      { "item": "scrap", "count": [ 8, 16 ] },
+      { "item": "solar_cell", "count": [ 7, 28 ] }
+    ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 6 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 4 ] ], "time": "45 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 7 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
+    },
+    "flags": [ "SOLAR_PANEL", "OBSTACLE", "INITIAL_PART", "PROTRUSION", "FOLDABLE", "EXTRA_DRAG" ]
+  },
+  {
+    "id": "Blaze_solar_array2",
+	"looks_like": "solar_array2",
+    "type": "vehicle_part",
+    "name": "upgraded solar array (Blaze2021)",
+    "item": "Blaze_solar_array2",
+    "location": "structure",
+    "symbol": "#",
+    "broken_symbol": "x",
+    "color": "yellow",
+    "broken_color": "yellow",
+    "durability": 165,
+    "epower": 750,
+    "damage_modifier": 10,
+    "folded_volume": "12 L",
+    "description": "A dozen upgraded solar panels set on a chassis reaching several meters high.  It keeps the fragile panels safely away from any potential threats and improves efficiency due to being able track the sun.  Will recharge the vehicle's electrical power when exposed to the sun.",
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 3, 6 ] },
+      { "item": "steel_chunk", "count": [ 6, 12 ] },
+      { "item": "scrap", "count": [ 8, 16 ] },
+      { "item": "solar_cell", "count": [ 14, 45 ] }
+    ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 6 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 4 ] ], "time": "45 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 7 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
+    },
+    "flags": [ "SOLAR_PANEL", "OBSTACLE", "INITIAL_PART", "PROTRUSION", "FOLDABLE", "EXTRA_DRAG" ]
+  },
+  {
+    "id": "Blaze_solar_array2r",
+	"looks_like": "solar_array2r",
+    "type": "vehicle_part",
+    "name": "upgraded reinforced solar array (Blaze2021)",
+    "item": "Blaze_solar_array2r",
+    "location": "structure",
+    "symbol": "#",
+    "broken_symbol": "x",
+    "color": "light_blue",
+    "broken_color": "light_gray",
+    "durability": 335,
+    "epower": 675,
+    "damage_modifier": 10,
+    "folded_volume": "15 L",
+    "description": "A dozen upgraded solar panels set on a chassis reaching several meters high.  It keeps the fragile panels safely away from any potential threats and improves efficiency due to being able track the sun.  Will recharge the vehicle's electrical power when exposed to the sun.",
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 6, 11 ] },
+      { "item": "steel_chunk", "count": [ 12, 23 ] },
+      { "item": "scrap", "count": [ 16, 31 ] },
+      { "item": "solar_cell", "count": [ 14, 45 ] }
+    ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 8 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 6 ] ], "time": "45 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 9 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
+    },
+    "flags": [ "SOLAR_PANEL", "OBSTACLE", "INITIAL_PART", "PROTRUSION", "FOLDABLE", "EXTRA_DRAG" ]
+  },
+
+  {
+    "id": "Blaze_turretframe",
+    "type": "vehicle_part",
+    "name": "turret chassis (Blaze2021)",
+    "item": "Blaze_turretframe",
+    "symbol": "Y",
+	"looks_like": "turret_mount",
+    "broken_symbol": "#",
+    "color": "light_gray",
+    "broken_color": "light_gray",
+    "durability": 400,
+    "damage_modifier": 80,
+    "folded_volume": 25,
+    "description": "A rotating turret, capable of mounting a weapon system.  Install a suitable weapon on it as an automated weapon and the vehicle will be able to fire on hostile targets that get too close.",
+    "breaks_into": [
+      { "item": "scrap", "count": [ 10, 20 ] },
+      { "item": "steel_chunk", "count": [ 4, 10 ] },
+      { "item": "spring", "count": [ 2, 8 ] }
+    ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "45 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 4 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
+    },
+    "flags": [ "TURRET_MOUNT" ]
+  },
+  {
+    "id": "Blaze_wiring",
+	"looks_like": "wiring",
+    "type": "vehicle_part",
+    "name": "wiring (Blaze2021)",
+    "item": "wire",
+    "location": "structure",
+    "symbol": ".",
+    "broken_symbol": "#",
+    "color": "white",
+    "broken_color": "white",
+    "durability": 10,
+    "description": "A length of heavy duty copper wire, useful for routing power from one part of a vehicle to another part.",
+    "folded_volume": 1,
+    "breaks_into": [ { "item": "wire", "prob": 50 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 1 ] ], "time": "60 s" },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 s" },
+      "repair": { "skills": [ [ "mechanics", 2 ] ], "time": "60 s" }
+    },
+    "flags": [ "FOLDABLE", "AISLE" ]
+  }
+]
