@@ -237,7 +237,6 @@
     "name": "turret chassis (Blaze2021)",
     "item": "Blaze_turretframe",
     "symbol": "Y",
-	"looks_like": "turret_mount",
     "broken_symbol": "#",
     "color": "light_gray",
     "broken_color": "light_gray",
@@ -259,7 +258,6 @@
   },
   {
     "id": "Blaze_wiring",
-	"looks_like": "wiring",
     "type": "vehicle_part",
     "name": "wiring (Blaze2021)",
     "item": "wire",

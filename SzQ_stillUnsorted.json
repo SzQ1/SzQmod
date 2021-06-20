@@ -101,7 +101,6 @@
   },
   {
     "id": "Blaze_vgen",
-	"looks_like": "vgen",
     "type": "TOOL",
     "category": "veh_parts",
     "name": "vortex engine (Blaze2021)",
@@ -117,7 +116,6 @@
   },
   {
     "id": "Blaze_vgen",
-	"looks_like": "vgen",
     "type": "vehicle_part",
     "name": "vortex generator (Blaze2021)",
     "item": "Blaze_vgen2",

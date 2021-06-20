@@ -103,6 +103,7 @@
   },
   {
     "id": "Blaze_harpoon",
+	"looks_like": "harpoon",
     "type": "AMMO",
     "name": "harpoon (Blaze2021)",
     "description": "A large spear carved from wood.  This was fashioned specifically to be fired from a compatible weapon; thus unsuitable for melee combat.",

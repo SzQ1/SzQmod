@@ -82,7 +82,6 @@
   },
   {
     "id": "Blaze_solar_array",
-	"looks_like": "solar_array",
     "type": "GENERIC",
     "category": "veh_parts",
     "name": "solar array (Blaze2021)",
@@ -98,7 +97,6 @@
   },
   {
     "id": "Blaze_solar_array2",
-	"looks_like": "solar_array2",
     "type": "GENERIC",
     "category": "veh_parts",
     "name": "upgraded solar array (Blaze2021)",
@@ -114,7 +112,6 @@
   },
   {
     "id": "Blaze_solar_array2r",
-	"looks_like": "solar_array2r",
     "type": "GENERIC",
     "category": "veh_parts",
     "name": "upgraded reinforced solar array (Blaze2021)",
@@ -130,7 +127,6 @@
   },
   {
     "id": "Blaze_turretframe",
-	"looks_like": "turret_mount",
     "type": "GENERIC",
     "category": "veh_parts",
     "name": { "str": "turret chassis (Blaze2021)" },
