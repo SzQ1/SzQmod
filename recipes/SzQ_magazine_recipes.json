@@ -1,6 +1,6 @@
 [
   {
-    "result": "Blaze_bb_hopper",
+    "result": "bb_hopper",
     "type": "recipe",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_MAGAZINES",
@@ -14,7 +14,7 @@
     "components": [ [ [ "sheet_metal", 4 ] ], [ [ "steel_chunk", 4 ] ], [ [ "plastic_chunk", 6 ] ] ]
   },
   {
-    "result": "Blaze_bolt_hopper",
+    "result": "bolt_hopper",
     "type": "recipe",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_MAGAZINES",
@@ -28,7 +28,7 @@
     "components": [ [ [ "sheet_metal", 4 ] ], [ [ "steel_chunk", 4 ] ], [ [ "plastic_chunk", 6 ] ] ]
   },
   {
-    "result": "Blaze_cannister_rack",
+    "result": "cannister_rack",
     "type": "recipe",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_MAGAZINES",
@@ -42,7 +42,7 @@
     "components": [ [ [ "sheet_metal", 4 ] ], [ [ "steel_chunk", 4 ] ], [ [ "plastic_chunk", 6 ] ] ]
   },
   {
-    "result": "Blaze_pebble_hopper",
+    "result": "pebble_hopper",
     "type": "recipe",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_MAGAZINES",

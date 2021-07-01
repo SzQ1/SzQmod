@@ -1,71 +1,14 @@
 [
-  {
-    "result": "Blaze_vgen",
-    "type": "recipe",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_MATERIALS",
-    "skill_used": "fabrication",
-    "difficulty": 6,
-    "skills_required": [ [ "mechanics", 6 ] ],
-    "time": 108000,
-    "reversible": false,
-    "autolearn": true,
-    "using": [ [ "forging_standard", 3 ], [ "steel_standard", 3 ], [ "welding_standard", 6 ] ],
-    "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 }, { "id": "CHISEL", "level": 3 } ],
-    "tools": [ [ [ "tongs", -1 ] ], [ [ "anvil", -1 ] ], [ [ "swage", -1 ] ] ],
-    "components": [
-      [ [ "vortex_stone", 1 ] ],
-      [ [ "chain", 6 ] ],
-      [ [ "foot_crank", 6 ] ],
-      [ [ "metal_tank", 1 ] ],
-      [ [ "plastic_chunk", 30 ] ]
-    ]
-  },
-  {
-    "result": "Blaze_vgen2",
-    "type": "recipe",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_MATERIALS",
-    "skill_used": "fabrication",
-    "difficulty": 5,
-    "skills_required": [ [ "mechanics", 5 ], [ "electronics", 3 ] ],
-    "time": 108000,
-    "autolearn": true,
-    "using": [ [ "forging_standard", 3 ], [ "steel_standard", 3 ], [ "welding_standard", 6 ] ],
-    "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 }, { "id": "CHISEL", "level": 3 } ],
-    "tools": [ [ [ "tongs", -1 ] ], [ [ "anvil", -1 ] ], [ [ "swage", -1 ] ] ],
-    "components": [
-      [ [ "vortex_stone", 1 ] ],
-      [ [ "chain", 6 ] ],
-      [ [ "foot_crank", 3 ] ],
-      [ [ "metal_tank", 1 ] ],
-      [ [ "plastic_chunk", 30 ] ],
-      [ [ "alternator_truck", 6 ], [ "alternator_car", 6 ], [ "alternator_motorbike", 6 ] ]
-    ]
-  },
-  {
-    "result": "Blaze_space_anomaly",
-    "type": "recipe",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_MATERIALS",
-    "skill_used": "electronics",
-    "difficulty": 8,
-    "skills_required": [ [ "mechanics", 3 ], [ "electronics", 3 ] ],
-    "time": 144000,
-    "autolearn": true,
-    "using": [ [ "welding_standard", 6 ] ],
-    "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
-    "components": [ [ [ "cargo_rack", 1 ] ], [ [ "teleporter", 1 ] ], [ [ "portal", 1 ] ], [ [ "plut_cell", 5 ] ] ]
-  },
+
 
   
 
   {
-    "id": "Blaze_space_anomaly",
+    "id": "space_anomaly",
 	"looks_like": "space_anomaly",
     "type": "GENERIC",
     "category": "veh_parts",
-    "name": "stabilized portal (Blaze2021)",
+    "name": "stabilized portal (SzQmod)",
     "description": "As you gaze into the seemingly infinite depths of this portable hole in reality, a phrase from a time forever gone echoes in your mind.  \"There are two things that are infinite: the universe and human kleptomania.\"",
     "weight": "22813 g",
     "volume": "50 L",
@@ -77,12 +20,12 @@
     "color": "cyan"
   },
   {
-    "id": "Blaze_space_anomaly",
+    "id": "space_anomaly",
 	"looks_like": "space_anomaly",
     "type": "vehicle_part",
-    "name": "cargo dimension (Blaze2021)",
+    "name": "cargo dimension (SzQmod)",
     "//": "Keep away from Svarog detectors!",
-    "item": "Blaze_space_anomaly",
+    "item": "space_anomaly",
     "location": "center",
     "symbol": "O",
     "broken_symbol": "O",
@@ -100,10 +43,10 @@
     "flags": [ "CARGO", "COVERED", "UNMOUNT_ON_DAMAGE" ]
   },
   {
-    "id": "Blaze_vgen",
+    "id": "vgen",
     "type": "TOOL",
     "category": "veh_parts",
-    "name": "vortex engine (Blaze2021)",
+    "name": "vortex engine (SzQmod)",
     "description": "A tornado in a box, so to speak.  Inside this innocuous tank contains either the culmination of human innovation in clean energy, or a weapon of mass destruction capable of wiping civilization - or what's left of it - off the map.  An external mechanism allows it to be attached to a vehicle to render it mobile.",
     "weight": "62071 g",
     "volume": "56250 ml",
@@ -115,10 +58,10 @@
     "color": "magenta"
   },
   {
-    "id": "Blaze_vgen",
+    "id": "vgen",
     "type": "vehicle_part",
-    "name": "vortex generator (Blaze2021)",
-    "item": "Blaze_vgen2",
+    "name": "vortex generator (SzQmod)",
+    "item": "vgen2",
     "location": "engine_block",
     "fuel_type": "vpower",
     "symbol": "8",
@@ -148,11 +91,11 @@
     "flags": [ "REACTOR", "PERPETUAL" ]
   },
   {
-    "id": "Blaze_vgen2",
+    "id": "vgen2",
 	"looks_like": "vgen",
     "type": "vehicle_part",
-    "name": "vortex engine (Blaze2021)",
-    "item": "Blaze_vgen",
+    "name": "vortex engine (SzQmod)",
+    "item": "vgen",
     "location": "engine_block",
     "fuel_type": "vpower",
     "symbol": "8",
@@ -182,11 +125,11 @@
     "flags": [ "ENGINE", "E_STARTS_INSTANTLY", "E_HIGHER_SKILL", "E_ALTERNATOR" ]
   },
   {
-    "id": "Blaze_vgen2",
+    "id": "vgen2",
 	"looks_like": "vgen",
     "type": "TOOL",
     "category": "veh_parts",
-    "name": "vortex generator (Blaze2021)",
+    "name": "vortex generator (SzQmod)",
     "description": "A tornado in a box, so to speak.  Inside this innocuous tank contains either the culmination of human innovation in clean energy, or a weapon of mass destruction capable of wiping civilization - or what's left of it - off the map.  An external mechanism allow it to be hooked up to a battery to store the power generated.",
     "weight": "48066 g",
     "volume": "50 L",
@@ -200,7 +143,7 @@
   
   {
     "id": "vpower",
-    "name": "vortex energy (Blaze2021)",
+    "name": "vortex energy (SzQmod)",
     "default": "vpower",
     "type": "ammunition_type"
   },
@@ -208,7 +151,7 @@
     "id": "vpower",
     "type": "AMMO",
     "category": "chems",
-    "name": { "str": "vortex core (Blaze2021)", "str_pl": "vortex core (Blaze2021)" },
+    "name": { "str": "vortex core (SzQmod)", "str_pl": "vortex core (SzQmod)" },
     "description": "Seeing this is a bug.",
     "weight": 0,
     "volume": "0 ml",

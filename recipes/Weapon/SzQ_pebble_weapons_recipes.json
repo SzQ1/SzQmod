@@ -1,6 +1,6 @@
 [
   {
-    "result": "Blaze_tihar",
+    "result": "tihar",
     "type": "recipe",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
@@ -20,7 +20,7 @@
     ]
   },
     {
-    "result": "Blaze_tiharturret",
+    "result": "tiharturret",
     "type": "recipe",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PARTS",
@@ -31,6 +31,6 @@
     "autolearn": true,
     "using": [ [ "soldering_standard", 30 ] ],
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
-    "components": [ [ [ "foot_crank", 1 ] ], [ [ "scrap", 12 ], [ "steel_chunk", 4 ] ], [ [ "Blaze_tihar", 1 ] ] ]
+    "components": [ [ [ "foot_crank", 1 ] ], [ [ "scrap", 12 ], [ "steel_chunk", 4 ] ], [ [ "tihar", 1 ] ] ]
   }
 ]

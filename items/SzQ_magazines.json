@@ -1,9 +1,9 @@
 [
   {
-    "id": "Blaze_nailmag",
+    "id": "nailmag",
     "looks_like": "stanag30",
     "type": "MAGAZINE",
-    "name": { "str": "nail rifle magazine (Blaze2021)" },
+    "name": { "str": "nail rifle magazine (SzQmod)" },
     "description": "An improvised magazine for use with a nail rifle.  Little more than a tin can, spring and some duct tape it is awkward to reload and not especially reliable.",
     "weight": "60 g",
     "volume": "250 ml",
@@ -18,9 +18,9 @@
     "flags": [ "MAG_COMPACT" ]
   },
   {
-    "id": "Blaze_bb_hopper",
+    "id": "bb_hopper",
     "type": "MAGAZINE",
-    "name": "BB hopper (Blaze2021)",
+    "name": "BB hopper (SzQmod)",
     "description": "An improvised magazine for a vehicle mounted weapon.  A simple metal box with some plastic guide rails, it acts as a gravity fed hopper to drop a small round shot into the weapon's chamber below.  It is not very reliable, but quick to reload.",
     "weight": "1840 g",
     "volume": "3 L",
@@ -34,10 +34,10 @@
     "reload_time": 15
   },
   {
-    "id": "Blaze_bolt_hopper",
-	"looks_like": "Blaze_bb_hopper",
+    "id": "bolt_hopper",
+	"looks_like": "bb_hopper",
     "type": "MAGAZINE",
-    "name": "bolt hopper (Blaze2021)",
+    "name": "bolt hopper (SzQmod)",
     "description": "An improvised magazine for a vehicle mounted crossbow.  A simple metal box with some plastic guide rails, it acts as a gravity fed hopper to drop a crossbow bolt into the weapon below.  It is awkward to reload and not especially reliable.",
     "weight": "1840 g",
     "volume": "3 L",
@@ -51,10 +51,10 @@
     "reload_time": 150
   },
   {
-    "id": "Blaze_cannister_rack",
-	"looks_like": "Blaze_bb_hopper",
+    "id": "cannister_rack",
+	"looks_like": "bb_hopper",
     "type": "MAGAZINE",
-    "name": "canister rack (Blaze2021)",
+    "name": "canister rack (SzQmod)",
     "description": "An improvised magazine for a vehicle mounted weapon.  A simple metal box with some plastic guide rails, it acts as a gravity fed hopper to drop a heavy canister into the weapon below.  It is awkward to reload and not especially reliable.",
     "weight": "1840 g",
     "volume": "3 L",
@@ -62,16 +62,16 @@
     "material": "steel",
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": "Blaze_h_projectile",
+    "ammo_type": "h_projectile",
     "capacity": 8,
     "reliability": 6,
     "reload_time": 150
   },
   {
-    "id": "Blaze_pebble_hopper",
-	"looks_like": "Blaze_bb_hopper",
+    "id": "pebble_hopper",
+	"looks_like": "bb_hopper",
     "type": "MAGAZINE",
-    "name": "pebble hopper (Blaze2021)",
+    "name": "pebble hopper (SzQmod)",
     "description": "An improvised magazine for a vehicle mounted weapon.  A simple metal box with some plastic guide rails, it acts as a gravity fed hopper to drop a small round shot into the weapon's chamber below.  It is not very reliable, but quick to reload.",
     "weight": "1840 g",
     "volume": "3 L",

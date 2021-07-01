@@ -1,6 +1,6 @@
 [
   {
-    "result": "Blaze_canbomb",
+    "result": "canbomb",
     "type": "recipe",
     "category": "CC_AMMO",
     "subcategory": "CSC_AMMO_OTHER",
@@ -31,7 +31,7 @@
     ]
   },
   {
-    "result": "Blaze_canbomb2",
+    "result": "canbomb2",
     "type": "recipe",
     "category": "CC_AMMO",
     "subcategory": "CSC_AMMO_OTHER",
@@ -61,7 +61,7 @@
     ]
   },
   {
-    "result": "Blaze_canbombfire",
+    "result": "canbombfire",
     "type": "recipe",
     "category": "CC_AMMO",
     "subcategory": "CSC_AMMO_OTHER",
@@ -92,7 +92,7 @@
     ]
   },
   {
-    "result": "Blaze_canbombfire2",
+    "result": "canbombfire2",
     "type": "recipe",
     "category": "CC_AMMO",
     "subcategory": "CSC_AMMO_OTHER",
@@ -124,7 +124,7 @@
     ]
   },
   {
-    "result": "Blaze_canbombfrag",
+    "result": "canbombfrag",
     "type": "recipe",
     "category": "CC_AMMO",
     "subcategory": "CSC_AMMO_OTHER",
@@ -145,7 +145,7 @@
         [ "chem_hmtd", 2 ],
         [ "chem_anfo", 5 ]
       ],
-      [ [ "lead", 120 ], [ "nail", 30 ], [ "bb", 100 ], [ "Blaze_shards", 50 ], [ "material_sand", 200 ] ],
+      [ [ "lead", 120 ], [ "nail", 30 ], [ "bb", 100 ], [ "shards", 50 ], [ "material_sand", 200 ] ],
       [
         [ "smpistol_primer", 1 ],
         [ "lgpistol_primer", 1 ],
@@ -156,7 +156,7 @@
     ]
   },
   {
-    "result": "Blaze_harpoon",
+    "result": "harpoon",
     "type": "recipe",
     "category": "CC_AMMO",
     "subcategory": "CSC_AMMO_OTHER",
@@ -168,7 +168,7 @@
     "components": [ [ [ "stick", 10 ], [ "2x4", 5 ], [ "log", 1 ] ] ]
   },
   {
-    "result": "Blaze_hbolt_boom",
+    "result": "hbolt_boom",
     "type": "recipe",
     "category": "CC_AMMO",
     "subcategory": "CSC_AMMO_OTHER",
@@ -178,13 +178,13 @@
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [
-      [ [ "Blaze_hbolt_wood", 1 ], [ "Blaze_hbolt_metal", 1 ] ],
-      [ [ "Blaze_canbomb", 1 ] ],
+      [ [ "hbolt_wood", 1 ], [ "hbolt_metal", 1 ] ],
+      [ [ "canbomb", 1 ] ],
       [ [ "cordage", 1, "LIST" ], [ "adhesive", 1, "LIST" ] ]
     ]
   },
   {
-    "result": "Blaze_hbolt_boom2",
+    "result": "hbolt_boom2",
     "type": "recipe",
     "category": "CC_AMMO",
     "subcategory": "CSC_AMMO_OTHER",
@@ -194,13 +194,13 @@
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [
-      [ [ "Blaze_hbolt_wood", 1 ], [ "Blaze_hbolt_metal", 1 ] ],
-      [ [ "Blaze_canbomb2", 1 ] ],
+      [ [ "hbolt_wood", 1 ], [ "hbolt_metal", 1 ] ],
+      [ [ "canbomb2", 1 ] ],
       [ [ "cordage", 1, "LIST" ], [ "adhesive", 1, "LIST" ] ]
     ]
   },
   {
-    "result": "Blaze_hbolt_fire",
+    "result": "hbolt_fire",
     "type": "recipe",
     "category": "CC_AMMO",
     "subcategory": "CSC_AMMO_OTHER",
@@ -210,13 +210,13 @@
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [
-      [ [ "Blaze_hbolt_wood", 1 ], [ "Blaze_hbolt_metal", 1 ] ],
-      [ [ "Blaze_canbombfire", 1 ], [ "molotov", 1 ] ],
+      [ [ "hbolt_wood", 1 ], [ "hbolt_metal", 1 ] ],
+      [ [ "canbombfire", 1 ], [ "molotov", 1 ] ],
       [ [ "cordage", 1, "LIST" ], [ "adhesive", 1, "LIST" ] ]
     ]
   },
   {
-    "result": "Blaze_hbolt_fire2",
+    "result": "hbolt_fire2",
     "type": "recipe",
     "category": "CC_AMMO",
     "subcategory": "CSC_AMMO_OTHER",
@@ -226,13 +226,13 @@
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [
-      [ [ "Blaze_hbolt_wood", 1 ], [ "Blaze_hbolt_metal", 1 ] ],
-      [ [ "Blaze_canbombfire2", 1 ], [ "40mm_incendiary", 1 ], [ "grenade_inc", 1 ] ],
+      [ [ "hbolt_wood", 1 ], [ "hbolt_metal", 1 ] ],
+      [ [ "canbombfire2", 1 ], [ "40mm_incendiary", 1 ], [ "grenade_inc", 1 ] ],
       [ [ "cordage", 1, "LIST" ], [ "adhesive", 1, "LIST" ] ]
     ]
   },
   {
-    "result": "Blaze_hbolt_frag",
+    "result": "hbolt_frag",
     "type": "recipe",
     "category": "CC_AMMO",
     "subcategory": "CSC_AMMO_OTHER",
@@ -242,13 +242,13 @@
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [
-      [ [ "Blaze_hbolt_wood", 1 ], [ "Blaze_hbolt_metal", 1 ] ],
-      [ [ "Blaze_canbombfrag", 1 ], [ "grenade", 1 ], [ "landmine", 1 ], [ "40x46mm_m433", 1 ], [ "pipebomb", 1 ] ],
+      [ [ "hbolt_wood", 1 ], [ "hbolt_metal", 1 ] ],
+      [ [ "canbombfrag", 1 ], [ "grenade", 1 ], [ "landmine", 1 ], [ "40x46mm_m433", 1 ], [ "pipebomb", 1 ] ],
       [ [ "cordage", 1, "LIST" ], [ "adhesive", 1, "LIST" ] ]
     ]
   },
   {
-    "result": "Blaze_hbolt_metal",
+    "result": "hbolt_metal",
     "type": "recipe",
     "category": "CC_AMMO",
     "subcategory": "CSC_AMMO_ARROWS",
@@ -262,7 +262,7 @@
     "components": [ [ [ "stick", 5 ], [ "broom", 5 ], [ "mop", 5 ], [ "2x4", 5 ], [ "log", 1 ] ], [ [ "scrap", 10 ], [ "rebar", 2 ] ] ]
   },
   {
-    "result": "Blaze_hbolt_nuke",
+    "result": "hbolt_nuke",
     "type": "recipe",
     "category": "CC_AMMO",
     "subcategory": "CSC_AMMO_OTHER",
@@ -272,13 +272,13 @@
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [
-      [ [ "Blaze_hbolt_wood", 1 ], [ "Blaze_hbolt_metal", 1 ] ],
+      [ [ "hbolt_wood", 1 ], [ "hbolt_metal", 1 ] ],
       [ [ "mininuke", 1 ] ],
       [ [ "cordage", 1, "LIST" ], [ "adhesive", 1, "LIST" ] ]
     ]
   },
   {
-    "result": "Blaze_hbolt_wood",
+    "result": "hbolt_wood",
     "type": "recipe",
     "category": "CC_AMMO",
     "subcategory": "CSC_AMMO_ARROWS",
@@ -291,7 +291,7 @@
     "components": [ [ [ "stick", 5 ], [ "broom", 5 ], [ "mop", 5 ], [ "2x4", 5 ], [ "log", 1 ] ] ]
   },
   {
-    "result": "Blaze_lead_ball",
+    "result": "lead_ball",
     "type": "recipe",
     "category": "CC_AMMO",
     "subcategory": "CSC_AMMO_OTHER",
@@ -305,7 +305,7 @@
     "components": [ [ [ "lead", 100 ] ] ]
   },
   {
-    "result": "Blaze_ripdisk",
+    "result": "ripdisk",
     "type": "recipe",
     "category": "CC_AMMO",
     "subcategory": "CSC_AMMO_OTHER",
@@ -318,7 +318,7 @@
     "tools": [ [ [ "tongs", -1 ] ], [ [ "anvil", -1 ] ], [ [ "swage", -1 ] ] ]
   },
   {
-    "result": "Blaze_shards",
+    "result": "shards",
     "type": "recipe",
     "category": "CC_AMMO",
     "subcategory": "CSC_AMMO_OTHER",
@@ -331,7 +331,7 @@
   },
   {
     "type": "recipe",
-    "result": "Blaze_h_projectile",
+    "result": "h_projectile",
     "category": "CC_AMMO",
     "subcategory": "CSC_AMMO_OTHER",
     "skill_used": "fabrication",

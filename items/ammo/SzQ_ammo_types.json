@@ -1,27 +1,27 @@
 [
  
   {
-    "id": "Blaze_h_projectile",
-    "name": "heavy projectiles (Blaze2021)",
-    "default": "Blaze_h_projectile",
+    "id": "h_projectile",
+    "name": "heavy projectiles (SzQmod)",
+    "default": "h_projectile",
     "type": "ammunition_type"
   },
   {
-    "id": "Blaze_harpoon",
-    "name": "harpoon (Blaze2021)",
-    "default": "Blaze_harpoon",
+    "id": "harpoon",
+    "name": "harpoon (SzQmod)",
+    "default": "harpoon",
     "type": "ammunition_type"
   },
   {
-    "id": "Blaze_hbolt",
-    "name": "ballista bolt (Blaze2021)",
-    "default": "Blaze_hbolt_wood",
+    "id": "hbolt",
+    "name": "ballista bolt (SzQmod)",
+    "default": "hbolt_wood",
     "type": "ammunition_type"
   },
   {
-    "id": "Blaze_ripdisk",
-    "name": "bladed disk (Blaze2021)",
-    "default": "Blaze_ripdisk",
+    "id": "ripdisk",
+    "name": "bladed disk (SzQmod)",
+    "default": "ripdisk",
     "type": "ammunition_type"
   }
 ]

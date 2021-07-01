@@ -1,6 +1,40 @@
 [
   {
-    "result": "Blaze_solar_array",
+    "result": "spiral_matrix",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "difficulty": 10,
+    "time": 30000,
+    "autolearn": true,
+    "using": [ [ "welding_standard", 1 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 3 }, { "id": "CHISEL", "level": 3 } ],
+    "components": [ [ [ "charcoal", 50 ] ], [ [ "plasma", 10 ] ], [ [ "spiral_stone", 1 ] ] ]
+  },
+    {
+    "id": "spiral_matrix",
+    "type": "TOOL",
+    "name": { "str": "diamond matrix", "str_pl": "diamond matrices" },
+    "description": "A sparkling diamond with a dazzling spiral pattern.  Small pieces of glittering crystal form on the edges as you hold it.",
+    "weight": "250 g",
+    "volume": "250 ml",
+    "price": "50000 USD",
+    "to_hit": -5,
+    "material": "diamond",
+    "symbol": "*",
+    "color": "white",
+    "looks_like": "spiral_stone",
+    "revert_to": "spiral_matrix",
+    "use_action": {
+      "target": "spiral_matrix",
+      "msg": "Your senses dull as you gaze into the depths of this gemstone's center…",
+      "moves": 60000,
+      "type": "transform"
+    }
+  },
+  {
+    "result": "solar_array",
     "type": "recipe",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
@@ -22,7 +56,7 @@
     ]
   },
   {
-    "result": "Blaze_solar_array2",
+    "result": "solar_array2",
     "type": "recipe",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
@@ -44,7 +78,7 @@
     ]
   },
   {
-    "result": "Blaze_solar_array2r",
+    "result": "solar_array2r",
     "type": "recipe",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
@@ -65,9 +99,68 @@
       [ [ "reinforced_solar_panel_v2", 7 ] ]
     ]
   },
+    {
+    "result": "vgen",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "skills_required": [ [ "mechanics", 6 ] ],
+    "time": 108000,
+    "reversible": false,
+    "autolearn": true,
+    "using": [ [ "forging_standard", 3 ], [ "steel_standard", 3 ], [ "welding_standard", 6 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 }, { "id": "CHISEL", "level": 3 } ],
+    "tools": [ [ [ "tongs", -1 ] ], [ [ "anvil", -1 ] ], [ [ "swage", -1 ] ] ],
+    "components": [
+      [ [ "vortex_stone", 1 ] ],
+      [ [ "chain", 6 ] ],
+      [ [ "foot_crank", 6 ] ],
+      [ [ "metal_tank", 1 ] ],
+      [ [ "plastic_chunk", 30 ] ]
+    ]
+  },
+    {
+    "result": "vgen2",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [ [ "mechanics", 5 ], [ "electronics", 3 ] ],
+    "time": 108000,
+    "autolearn": true,
+    "using": [ [ "forging_standard", 3 ], [ "steel_standard", 3 ], [ "welding_standard", 6 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 }, { "id": "CHISEL", "level": 3 } ],
+    "tools": [ [ [ "tongs", -1 ] ], [ [ "anvil", -1 ] ], [ [ "swage", -1 ] ] ],
+    "components": [
+      [ [ "vortex_stone", 1 ] ],
+      [ [ "chain", 6 ] ],
+      [ [ "foot_crank", 3 ] ],
+      [ [ "metal_tank", 1 ] ],
+      [ [ "plastic_chunk", 30 ] ],
+      [ [ "alternator_truck", 6 ], [ "alternator_car", 6 ], [ "alternator_motorbike", 6 ] ]
+    ]
+  },
+  {
+    "result": "space_anomaly",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "electronics",
+    "difficulty": 8,
+    "skills_required": [ [ "mechanics", 3 ], [ "electronics", 3 ] ],
+    "time": 144000,
+    "autolearn": true,
+    "using": [ [ "welding_standard", 6 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
+    "components": [ [ [ "cargo_rack", 1 ] ], [ [ "teleporter", 1 ] ], [ [ "portal", 1 ] ], [ [ "plut_cell", 5 ] ] ]
+  },
+
  
   {
-    "result": "Blaze_turretframe",
+    "result": "turretframe",
     "type": "recipe",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",

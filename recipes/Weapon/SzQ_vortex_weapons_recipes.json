@@ -1,6 +1,6 @@
 [
   {
-    "result": "Blaze_vortexbolter",
+    "result": "vortexbolter",
     "type": "recipe",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PARTS",
@@ -21,7 +21,7 @@
     ]
   },
   {
-    "result": "Blaze_vortexrifle",
+    "result": "vortexrifle",
     "type": "recipe",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PARTS",
@@ -42,7 +42,7 @@
     ]
   },
   {
-    "result": "Blaze_vortexaccelerator",
+    "result": "vortexaccelerator",
     "type": "recipe",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PARTS",
@@ -62,7 +62,7 @@
     ]
   },
   {
-    "result": "Blaze_vortexcannon",
+    "result": "vortexcannon",
     "type": "recipe",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PARTS",

@@ -1,11 +1,11 @@
 [
 
      {
-    "id": "Blaze_coilgun",
+    "id": "coilgun",
     "copy-from": "gun_base",
     "looks_like": "ar15",
     "type": "GUN",
-    "name": { "str": "coilgun (Blaze2021)" },
+    "name": { "str": "coilgun (SzQmod)" },
     "//": "Hard to make, plentiful and cheap ammo, and silent - people will want this thing.",
     "description": "A homemade gun, using electromagnets to accelerate a ferromagnetic projectile to high velocity.  Powered by UPS.",
     "weight": "3341 g",
@@ -32,14 +32,14 @@
       [ "rail mount", 1 ],
       [ "underbarrel mount", 1 ]
     ],
-    "magazines": [ [ "nail", [ "Blaze_nailmag" ] ] ]
+    "magazines": [ [ "nail", [ "nailmag" ] ] ]
   },
   {
-    "id": "Blaze_nailrifle",
+    "id": "nailrifle",
     "copy-from": "nailgun",
     "looks_like": "ar15",
     "type": "GUN",
-    "name": { "str": "nail rifle (Blaze2021)" },
+    "name": { "str": "nail rifle (SzQmod)" },
     "description": "This is a nailgun that has been extensively modified with the addition of a short barrel, stock and hand guard.  It can be reloaded using detachable magazines and is an overall much more effective weapon.",
     "to_hit": -1,
     "bashing": 12,
@@ -57,16 +57,16 @@
       [ "rail mount", 1 ],
       [ "underbarrel mount", 1 ]
     ],
-    "magazines": [ [ "nail", [ "Blaze_nailmag" ] ] ],
+    "magazines": [ [ "nail", [ "nailmag" ] ] ],
     "relative": { "weight": 1000, "volume": 6, "range": 3, "ranged_damage": 4 },
     "proportional": { "price": 3, "dispersion": 0.5 }
   },
     {
-    "id": "Blaze_nailer",
+    "id": "nailer",
 	"looks_like": "nailer",
     "type": "GUN",
     "reload_noise_volume": 10,
-    "name": "perforator (Blaze2021)",
+    "name": "perforator (SzQmod)",
     "description": "A coilgun with improved electromagnetic circuits to be able to propel a metallic projectile at high speed and with great accuracy.  Capable of piercing armor with little issue, though the projectile itself lacks damage due to its small size.  It must be mounted on a specialized chassis in order to be fired.",
     "weight": "6152 g",
     "volume": "2500 ml",
@@ -86,15 +86,15 @@
     "reload": 150,
     "valid_mod_locations": [  ],
     "magazine_well": 1,
-    "magazines": [ [ "nail", [ "Blaze_nailmag" ] ] ],
+    "magazines": [ [ "nail", [ "nailmag" ] ] ],
     "flags": [ "MOUNTED_GUN", "NEVER_JAMS", "NON-FOULING" ]
   },
   {
-    "id": "Blaze_needler",
+    "id": "needler",
 	"looks_like": "needler",
     "reload_noise_volume": 10,
     "type": "GUN",
-    "name": "needler (Blaze2021)",
+    "name": "needler (SzQmod)",
     "description": "This improved nailgun features a special firing mechanism that is set to fire a spread of up to 5 nails at once; sure to drop the hammer on its unfortunate targets.  However, these features render it incredibly unwieldy, and it must be mounted on a supporting frame in order to be fired.",
     "weight": "7827 g",
     "volume": "3750 ml",
@@ -114,7 +114,7 @@
     "reload": 150,
     "valid_mod_locations": [  ],
     "magazine_well": 1,
-    "magazines": [ [ "nail", [ "Blaze_nailmag" ] ] ],
+    "magazines": [ [ "nail", [ "nailmag" ] ] ],
     "flags": [ "MOUNTED_GUN", "NEVER_JAMS" ]
   }
 ]

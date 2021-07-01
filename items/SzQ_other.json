@@ -1,9 +1,9 @@
 [
   {
-    "id": "Blaze_steam_triple_large",
+    "id": "steam_triple_large",
     "copy-from": "engine_steam",
     "type": "ENGINE",
-    "name": "large steam engine (Blaze2021)",
+    "name": "large steam engine (SzQmod)",
     "description": "A large steam engine.  An integrated boiler burns coal to heat water into steam, driving a reciprocating shaft.  A condensor recaptures the water, making this a closed cycle system.",
     "weight": "280 kg",
     "volume": "95 L",
@@ -14,10 +14,10 @@
     "price_postapoc": 2800000
   },
   {
-    "id": "Blaze_steam_triple_giant",
+    "id": "steam_triple_giant",
     "copy-from": "engine_steam",
     "type": "ENGINE",
-    "name": "huge steam engine (Blaze2021)",
+    "name": "huge steam engine (SzQmod)",
     "description": "A huge steam engine.  An integrated boiler burns coal to heat water into steam, driving a reciprocating shaft.  A condensor recaptures the water, making this a closed cycle system.",
     "weight": "835 kg",
     "volume": "175 L",
@@ -28,10 +28,10 @@
     "price_postapoc": 5130000
   },
   {
-    "id": "Blaze_steam_turbine_small",
+    "id": "steam_turbine_small",
     "copy-from": "engine_steam",
     "type": "ENGINE",
-    "name": "small steam turbine (Blaze2021)",
+    "name": "small steam turbine (SzQmod)",
     "description": "A small steam turbine.  An integrated boiler burns coal to heat water into steam, driving a spinning turbine.  A condensor recaptures the water, making this a closed cycle system.",
     "weight": "80 kg",
     "volume": "18750 ml",
@@ -42,10 +42,10 @@
     "price_postapoc": 510000
   },
   {
-    "id": "Blaze_steam_turbine_medium",
+    "id": "steam_turbine_medium",
     "copy-from": "engine_steam",
     "type": "ENGINE",
-    "name": "medium steam turbine (Blaze2021)",
+    "name": "medium steam turbine (SzQmod)",
     "description": "A medium sized steam turbine.  An integrated boiler burns coal to heat water into steam, driving a spinning turbine.  A condensor recaptures the water, making this a closed cycle system.",
     "weight": "120 kg",
     "volume": "27500 ml",
@@ -55,10 +55,10 @@
     "price_postapoc": 760000
   },
   {
-    "id": "Blaze_steam_turbine_large",
+    "id": "steam_turbine_large",
     "copy-from": "engine_steam",
     "type": "ENGINE",
-    "name": "large steam turbine (Blaze2021)",
+    "name": "large steam turbine (SzQmod)",
     "description": "A large steam turbine.  An integrated boiler burns coal to heat water into steam, driving a spinning turbine.  A condensor recaptures the water, making this a closed cycle system.",
     "weight": "190 kg",
     "volume": "45 L",
@@ -68,10 +68,10 @@
     "price_postapoc": 1190000
   },
   {
-    "id": "Blaze_steam_turbine_giant",
+    "id": "steam_turbine_giant",
     "copy-from": "engine_steam",
     "type": "ENGINE",
-    "name": "huge steam turbine (Blaze2021)",
+    "name": "huge steam turbine (SzQmod)",
     "description": "A huge steam turbine.  An integrated boiler burns coal to heat water into steam, driving a spinning turbine.  A condensor recaptures the water, making this a closed cycle system.",
     "weight": "345 kg",
     "volume": "81250 ml",
@@ -81,10 +81,10 @@
     "price_postapoc": 2120000
   },
   {
-    "id": "Blaze_solar_array",
+    "id": "solar_array",
     "type": "GENERIC",
     "category": "veh_parts",
-    "name": "solar array (Blaze2021)",
+    "name": "solar array (SzQmod)",
     "description": "A dozen solar panels set on a chassis reaching several meters high.  It keeps the fragile panels safely away from any potential threats and improves efficiency due to being able track the sun.  However, this comes at the cost of being prohibitively heavy.",
     "weight": "265400 g",
     "volume": "62500 ml",
@@ -96,10 +96,10 @@
     "color": "yellow"
   },
   {
-    "id": "Blaze_solar_array2",
+    "id": "solar_array2",
     "type": "GENERIC",
     "category": "veh_parts",
-    "name": "upgraded solar array (Blaze2021)",
+    "name": "upgraded solar array (SzQmod)",
     "description": "A dozen upgraded solar panels set on a chassis reaching several meters high.  It keeps the fragile panels safely away from any potential threats and improves efficiency due to being able to track the sun.  However, this comes at the cost of being prohibitively heavy and obstructive.",
     "weight": "319328 g",
     "volume": "62500 ml",
@@ -111,10 +111,10 @@
     "color": "yellow"
   },
   {
-    "id": "Blaze_solar_array2r",
+    "id": "solar_array2r",
     "type": "GENERIC",
     "category": "veh_parts",
-    "name": "upgraded reinforced solar array (Blaze2021)",
+    "name": "upgraded reinforced solar array (SzQmod)",
     "description": "A dozen upgraded reinforced solar panels set on a chassis reaching several meters high.  It keeps the fragile panels safely away from any potential threats and improves efficiency due to being able to track the sun.  However, this comes at the cost of being prohibitively heavy and obstructive.",
     "weight": "382736 g",
     "volume": "80500 ml",
@@ -126,10 +126,10 @@
     "color": "light_blue"
   },
   {
-    "id": "Blaze_turretframe",
+    "id": "turretframe",
     "type": "GENERIC",
     "category": "veh_parts",
-    "name": { "str": "turret chassis (Blaze2021)" },
+    "name": { "str": "turret chassis (SzQmod)" },
     "description": "A frame capable of rotating a full 360 degrees, capable of mounting multiple weapon systems either welded directly onto it or secured via the straps.  It comes with a easily modified container for ammunition storage, a rudimentary ammo feed system for easy access, and a section for a movement system.  It is controlled by a targeting AI that can adapt to the usage of whatever weapon that has been loading, with proper programming.",
     "weight": "38604 g",
     "volume": "20 L",

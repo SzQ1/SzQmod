@@ -1,7 +1,7 @@
 [
   
   {
-    "result": "Blaze_coilgun",
+    "result": "coilgun",
     "type": "recipe",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
@@ -16,7 +16,7 @@
     "components": [ [ [ "pipe", 1 ] ], [ [ "power_supply", 1 ] ], [ [ "amplifier", 1 ] ], [ [ "scrap", 6 ] ], [ [ "cable", 20 ] ] ]
   },
       {
-    "result": "Blaze_nailrifle",
+    "result": "nailrifle",
     "type": "recipe",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PARTS",
@@ -30,7 +30,7 @@
     "components": [ [ [ "foot_crank", 1 ] ], [ [ "scrap", 12 ], [ "steel_chunk", 4 ] ], [ [ "chain", 1 ] ] ]
   },
     {
-    "result": "Blaze_nailer",
+    "result": "nailer",
     "type": "recipe",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PARTS",
@@ -48,11 +48,11 @@
       [ [ "plastic_chunk", 10 ] ],
       [ [ "amplifier", 5 ] ],
       [ [ "power_supply", 5 ] ],
-      [ [ "Blaze_coilgun", 1 ] ]
+      [ [ "coilgun", 1 ] ]
     ]
   },
     {
-    "result": "Blaze_needler",
+    "result": "needler",
     "type": "recipe",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PARTS",
@@ -63,7 +63,7 @@
     "autolearn": true,
     "using": [ [ "soldering_standard", 40 ] ],
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
-    "components": [ [ [ "foot_crank", 1 ] ], [ [ "scrap", 12 ], [ "steel_chunk", 4 ] ], [ [ "Blaze_nailrifle", 1 ] ] ]
+    "components": [ [ [ "foot_crank", 1 ] ], [ [ "scrap", 12 ], [ "steel_chunk", 4 ] ], [ [ "nailrifle", 1 ] ] ]
   }
    
    

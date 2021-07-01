@@ -1,11 +1,11 @@
 [
  
   {
-    "id": "Blaze_lasgun",
+    "id": "lasgun",
 	"looks_like": "lasgun",
     "type": "GUN",
     "reload_noise_volume": 10,
-    "name": "laser cannon (Blaze2021)",
+    "name": "laser cannon (SzQmod)",
     "description": "This enhanced laser cannon sacrifices efficiency for destructive power.  The increased power requirements require a significant power source and the size of the firing mechanism also requires support.",
     "weight": "6650 g",
     "volume": "3 L",
@@ -26,11 +26,11 @@
     "flags": [ "NEVER_JAMS", "NO_UNLOAD", "MOUNTED_GUN" ]
   },
   {
-    "id": "Blaze_lasgunp",
+    "id": "lasgunp",
 	"looks_like": "lasgunp",
     "type": "GUN",
     "reload_noise_volume": 10,
-    "name": "pulse laser (Blaze2021)",
+    "name": "pulse laser (SzQmod)",
     "description": "Augmented damage capability and rapid bursts make this a powerful weapon.  The increased power requirements require a significant power source and the firing mechanism also requires a specialized chassis.",
     "weight": "4825 g",
     "volume": "3 L",
@@ -52,11 +52,11 @@
     "flags": [ "NEVER_JAMS", "NO_UNLOAD", "MOUNTED_GUN" ]
   },
   {
-    "id": "Blaze_lasgunx",
+    "id": "lasgunx",
 	"looks_like": "lasgunx",
     "type": "GUN",
     "reload_noise_volume": 10,
-    "name": "turbolaser cannon (Blaze2021)",
+    "name": "turbolaser cannon (SzQmod)",
     "description": "With an augmented emitter and capacitor, this mounted laser is capable of superheating most materials to the point of exploding.  The firing mechanism also requires the services of a specialized chassis, and one must be wary of the prodigious power needs of such a weapon.",
     "weight": "9500 g",
     "volume": "4500 ml",

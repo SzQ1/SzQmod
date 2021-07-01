@@ -1,7 +1,7 @@
 [
 
   {
-    "id": "Blaze_rebar_rifle",
+    "id": "rebar_rifle",
     "looks_like": "ar15",
     "type": "GUN",
     "reload_noise_volume": 10,
@@ -36,7 +36,7 @@
     "ammo_effects": [ "INCENDIARY", "TRAIL" ]
   },
     {
-    "id": "Blaze_heavy_rail_rifle",
+    "id": "heavy_rail_rifle",
     "looks_like": "ar15",
     "type": "GUN",
     "reload_noise_volume": 10,
@@ -74,11 +74,11 @@
     "flags": [ "RELOAD_ONE" ]
   },
     {
-    "id": "Blaze_railturret",
+    "id": "railturret",
 	"looks_like": "railturret",
     "reload_noise_volume": 10,
     "type": "GUN",
-    "name": "hypervelocity driver (Blaze2021)",
+    "name": "hypervelocity driver (SzQmod)",
     "description": "A single-shot, electrically propelled, steel rail launcher.  The powerful, and frankly dangerous, improvements made to the power systems of this weapon is capable imbuing a massive charge into a single-rail; so much that it often shatters into deadly fragments on impact.  It's capabilities are limited by its prodigious power requirements however, and its large size necessitates an appropriately-equipped vehicle.",
     "weight": "10135 g",
     "volume": "4 L",

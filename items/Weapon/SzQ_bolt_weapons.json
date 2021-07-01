@@ -1,12 +1,12 @@
 [
   {
-    "id": "Blaze_helsing",
+    "id": "helsing",
     "looks_like": "ar15",
     "type": "GUN",
     "reload_noise_volume": 10,
     "symbol": "(",
     "color": "dark_gray",
-    "name": { "str": "pneumatic bolt driver (Blaze2021)" },
+    "name": { "str": "pneumatic bolt driver (SzQmod)" },
     "description": "An eight-shot, revolving barrel, pneumatic bolt driver handcrafted from scrap.  It is very quiet and deadly.",
     "price": "2900 USD",
     "price_postapoc": "120 USD",
@@ -37,11 +37,11 @@
     ]
   },
     {
-    "id": "Blaze_bolter",
+    "id": "bolter",
 	"looks_like": "bolter",
     "type": "GUN",
     "reload_noise_volume": 10,
-    "name": "storm bolter (Blaze2021)",
+    "name": "storm bolter (SzQmod)",
     "description": "This pneumatic bolt thrower has been greatly enhanced, allowing multiple bolts to be launched accurately and in quick succession.  It requires a support of some sort in order to be operated.",
     "weight": "7110 g",
     "volume": "3750 ml",
@@ -60,7 +60,7 @@
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 3 ] ],
     "reload": 150,
     "magazine_well": 1,
-    "magazines": [ [ "bolt", [ "Blaze_bolt_hopper" ] ] ],
+    "magazines": [ [ "bolt", [ "bolt_hopper" ] ] ],
     "flags": [ "NEVER_JAMS", "MOUNTED_GUN" ]
   }
  

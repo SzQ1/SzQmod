@@ -1,12 +1,12 @@
 [
      {
-    "id": "Blaze_tihar",
+    "id": "tihar",
     "looks_like": "ar15",
     "type": "GUN",
     "reload_noise_volume": 10,
     "symbol": "(",
     "color": "light_gray",
-    "name": { "str": "pneumatic assault rifle (Blaze2021)" },
+    "name": { "str": "pneumatic assault rifle (SzQmod)" },
     "description": "A multistroke pneumatic rifle handcrafted from scrap.  It is very quiet and deadly.",
     "price": "2400 USD",
     "price_postapoc": "120 USD",
@@ -38,11 +38,11 @@
     ]
   },
     {
-    "id": "Blaze_tiharturret",
+    "id": "tiharturret",
 	"looks_like": "tiharturret",
     "type": "GUN",
     "reload_noise_volume": 10,
-    "name": "avalanche rifle (Blaze2021)",
+    "name": "avalanche rifle (SzQmod)",
     "description": "This pneumatic assault rifle has been greatly enhanced, firing projectiles faster and with higher velocity.  However, these features render it incredibly unwieldy, and it must be mounted on a supporting platform in order to be fired.",
     "weight": "7311 g",
     "volume": "3750 ml",
@@ -55,12 +55,12 @@
     "ammo": [ "pebble" ],
     "skill": "rifle",
     "range": 20,
-    "ranged_damage": { "damage_type": "stab", "amount": 25 },
+    "ranged_damage": { "damage_type": "stab", "amount": 25, "armor_penetration": 5 },
     "sight_dispersion": 150,
     "durability": 9,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 5 ] ],
     "magazine_well": 1,
-    "magazines": [ [ "pebble", [ "Blaze_pebble_hopper" ] ] ],
+    "magazines": [ [ "pebble", [ "pebble_hopper" ] ] ],
     "reload": 150,
     "flags": [ "NEVER_JAMS", "MOUNTED_GUN", "NON-FOULING" ]
   }
