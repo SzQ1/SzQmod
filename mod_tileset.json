@@ -40,8 +40,7 @@
 		  { "id": "shards", "fg": 26, "rotates": false },
 		  { "id": "harpoon", "fg": 27, "rotates": false },
 		  { "id": "overlay_wielded_harpoon", "fg": 27, "rotates": false },
-		  { "id": "vgen", "fg": 28, "rotates": false },
-		  { "id": "vgen2", "fg": 28, "rotates": false },
+		  
 		  
 		  { "id": "solar_array", "fg": 8, "rotates": true },
 		  { "id": "overlay_wielded_solar_array", "fg": 8, "rotates": true },
