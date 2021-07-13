@@ -13,4 +13,4 @@ these toys:
 - 
 New sprites of Vortex engine and generator:
 ![alt text](https://cdn.discordapp.com/attachments/677955422656659457/861376511893307472/vortex_gen_1.gif)
-![alt text](https://cdn.discordapp.com/attachments/677955422656659457/861376511893307472/vortex_gen_1.gif)
+![alt text](https://cdn.discordapp.com/attachments/677955422656659457/861376514931425320/vortex_gen_2.gif)
