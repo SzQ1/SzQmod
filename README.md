@@ -12,7 +12,7 @@ these toys:
 
 Sprites of Vortex engine and generator:
 
-![alt text](https://cdn.discordapp.com/attachments/677955422656659457/864206923816763443/2021-07-12_20-08-01.mp4)
-![alt text](https://cdn.discordapp.com/attachments/677955422656659457/861376514931425320/vortex_gen_2.gif)
+![alt text](https://cdn.discordapp.com/attachments/696798032875749516/869717799998742569/SzQ_animated.gif)
+![alt text](https://cdn.discordapp.com/attachments/696798032875749516/869718020698804344/SzQ_animated.gif)
 
 - SzQ - end of July 2021
