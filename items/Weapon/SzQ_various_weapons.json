@@ -1,7 +1,7 @@
 [
   {
     "id": "cutter",
-	"looks_like": "cutter",
+    "looks_like": "cutter",
     "type": "GUN",
     "reload_noise_volume": 10,
     "name": "lacerator (SzQmod)",
@@ -25,9 +25,9 @@
     "valid_mod_locations": [  ],
     "flags": [ "MOUNTED_GUN", "NEVER_JAMS", "NON-FOULING" ]
   },
-    {
+  {
     "id": "ripper",
-	"looks_like": "ripper",
+    "looks_like": "ripper",
     "type": "GUN",
     "reload_noise_volume": 10,
     "name": "ripper (SzQmod)",
@@ -47,17 +47,16 @@
     "sight_dispersion": 150,
     "durability": 8,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 5 ] ],
-	"loudness": 1,
+    "loudness": 1,
     "clip_size": 15,
     "reload": 750,
     "valid_mod_locations": [  ],
     "ammo_effects": [ "WIDE" ],
     "flags": [ "NEVER_JAMS", "MOUNTED_GUN", "NON-FOULING" ]
   },
-
-    {
+  {
     "id": "cangun",
-	"looks_like": "cangun",
+    "looks_like": "cangun",
     "type": "GUN",
     "reload_noise_volume": 10,
     "name": "slingshot cannon (SzQmod)",
@@ -85,7 +84,7 @@
   },
   {
     "id": "gattler",
-	"looks_like": "gattler",
+    "looks_like": "gattler",
     "type": "GUN",
     "reload_noise_volume": 10,
     "name": "rotary cannon (SzQmod)",
@@ -110,10 +109,9 @@
     "valid_mod_locations": [  ],
     "flags": [ "NEVER_JAMS", "MOUNTED_GUN" ]
   },
-  
   {
     "id": "rslauncher",
-	"looks_like": "rslauncher",
+    "looks_like": "rslauncher",
     "type": "GUN",
     "reload_noise_volume": 10,
     "name": "rotary speargun (SzQmod)",
@@ -139,9 +137,9 @@
     "ammo_effects": [ "WIDE" ],
     "flags": [ "NEVER_JAMS", "MOUNTED_GUN", "NON-FOULING" ]
   },
-    {
+  {
     "id": "slauncher",
-	"looks_like": "slauncher",
+    "looks_like": "slauncher",
     "type": "GUN",
     "reload_noise_volume": 10,
     "name": "harpoon gun (SzQmod)",
@@ -169,7 +167,7 @@
   },
   {
     "id": "scorpion",
-	"looks_like": "scorpion",
+    "looks_like": "scorpion",
     "type": "GUN",
     "reload_noise_volume": 10,
     "name": "scorpion ballista (SzQmod)",
@@ -196,7 +194,7 @@
   },
   {
     "id": "shardgun",
-	"looks_like": "shardgun",
+    "looks_like": "shardgun",
     "type": "GUN",
     "reload_noise_volume": 10,
     "name": "splintergun (SzQmod)",
@@ -224,10 +222,9 @@
     "magazines": [ [ "BB", [ "bb_hopper" ] ] ],
     "flags": [ "MOUNTED_GUN", "NEVER_JAMS", "NON-FOULING" ]
   },
-
   {
     "id": "teslagun",
-	"looks_like": "teslagun",
+    "looks_like": "teslagun",
     "type": "GUN",
     "reload_noise_volume": 10,
     "name": "Tesla cannon (SzQmod)",
@@ -249,5 +246,4 @@
     "ammo_effects": [ "BOUNCE", "LIGHTNING" ],
     "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON-FOULING", "MOUNTED_GUN" ]
   }
-
 ]

@@ -1,11 +1,7 @@
 [
-
-
-  
-
   {
     "id": "space_anomaly",
-	"looks_like": "space_anomaly",
+    "looks_like": "space_anomaly",
     "type": "GENERIC",
     "category": "veh_parts",
     "name": "stabilized portal (SzQmod)",
@@ -21,7 +17,7 @@
   },
   {
     "id": "space_anomaly",
-	"looks_like": "space_anomaly",
+    "looks_like": "space_anomaly",
     "type": "vehicle_part",
     "name": "cargo dimension (SzQmod)",
     "//": "Keep away from Svarog detectors!",
@@ -92,7 +88,7 @@
   },
   {
     "id": "vgen2",
-	"looks_like": "vgen",
+    "looks_like": "vgen",
     "type": "vehicle_part",
     "name": "vortex engine (SzQmod)",
     "item": "vgen",
@@ -126,7 +122,7 @@
   },
   {
     "id": "vgen2",
-	"looks_like": "vgen",
+    "looks_like": "vgen",
     "type": "TOOL",
     "category": "veh_parts",
     "name": "vortex generator (SzQmod)",
@@ -140,7 +136,6 @@
     "symbol": ",",
     "color": "magenta"
   },
-  
   {
     "id": "vpower",
     "name": "vortex energy (SzQmod)",

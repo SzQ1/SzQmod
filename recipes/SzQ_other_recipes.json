@@ -12,7 +12,7 @@
     "qualities": [ { "id": "HAMMER", "level": 3 }, { "id": "CHISEL", "level": 3 } ],
     "components": [ [ [ "charcoal", 50 ] ], [ [ "plasma", 10 ] ], [ [ "spiral_stone", 1 ] ] ]
   },
-    {
+  {
     "id": "spiral_matrix",
     "type": "TOOL",
     "name": { "str": "diamond matrix", "str_pl": "diamond matrices" },
@@ -99,7 +99,7 @@
       [ [ "reinforced_solar_panel_v2", 7 ] ]
     ]
   },
-    {
+  {
     "result": "vgen",
     "type": "recipe",
     "category": "CC_OTHER",
@@ -121,7 +121,7 @@
       [ [ "plastic_chunk", 30 ] ]
     ]
   },
-    {
+  {
     "result": "vgen2",
     "type": "recipe",
     "category": "CC_OTHER",
@@ -157,8 +157,6 @@
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
     "components": [ [ [ "cargo_rack", 1 ] ], [ [ "teleporter", 1 ] ], [ [ "portal", 1 ] ], [ [ "plut_cell", 5 ] ] ]
   },
-
- 
   {
     "result": "turretframe",
     "type": "recipe",

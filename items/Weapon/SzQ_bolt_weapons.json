@@ -6,39 +6,30 @@
     "reload_noise_volume": 10,
     "symbol": "(",
     "color": "dark_gray",
-    "name": { "str": "pneumatic bolt driver (SzQmod)" },
-    "description": "An eight-shot, revolving barrel, pneumatic bolt driver handcrafted from scrap.  It is very quiet and deadly.",
+    "name": { "str": "Pneumatic bolt driver" },
+    "description": "Often called a Helsing, an eight-shot, revolving barrel, pneumatic bolt driver handcrafted from scrap. It is pretty quiet and a quite deadly.",
     "price": "2900 USD",
     "price_postapoc": "120 USD",
     "material": [ "steel", "wood" ],
-    "flags": [ "STR_RELOAD", "NON-FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "NON-FOULING", "NEEDS_NO_LUBE" ],
     "skill": "rifle",
     "ammo": [ "bolt" ],
-    "weight": "3110 g",
+    "weight": "4110 g",
     "volume": "3 L",
     "bashing": 12,
     "to_hit": -1,
-    "ranged_damage": { "damage_type": "stab", "amount": 20, "armor_penetration": 7 },
-    "range": 20,
+    "loudness": 16,
+    "ranged_damage": { "damage_type": "stab", "amount": 50 },
+    "range": 16,
     "dispersion": 30,
     "durability": 7,
     "clip_size": 8,
-    "reload": 6000,
-    "loudness": 22,
-    "valid_mod_locations": [
-      [ "accessories", 4 ],
-      [ "grip", 1 ],
-      [ "mechanism", 4 ],
-      [ "sights", 1 ],
-      [ "sling", 1 ],
-      [ "stock", 1 ],
-      [ "rail mount", 1 ],
-      [ "underbarrel mount", 1 ]
-    ]
+    "reload": 2000,
+    "valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "mechanism", 4 ], [ "sights", 1 ], [ "stock", 1 ], [ "rail mount", 1 ] ]
   },
-    {
+  {
     "id": "bolter",
-	"looks_like": "bolter",
+    "looks_like": "bolter",
     "type": "GUN",
     "reload_noise_volume": 10,
     "name": "storm bolter (SzQmod)",
@@ -63,5 +54,4 @@
     "magazines": [ [ "bolt", [ "bolt_hopper" ] ] ],
     "flags": [ "NEVER_JAMS", "MOUNTED_GUN" ]
   }
- 
 ]

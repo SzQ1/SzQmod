@@ -1,5 +1,4 @@
 [
-
   {
     "id": "rebar_rifle",
     "looks_like": "ar15",
@@ -35,7 +34,7 @@
     ],
     "ammo_effects": [ "INCENDIARY", "TRAIL" ]
   },
-    {
+  {
     "id": "heavy_rail_rifle",
     "looks_like": "ar15",
     "type": "GUN",
@@ -73,9 +72,9 @@
     "ammo_effects": [ "INCENDIARY", "TRAIL" ],
     "flags": [ "RELOAD_ONE" ]
   },
-    {
+  {
     "id": "railturret",
-	"looks_like": "railturret",
+    "looks_like": "railturret",
     "reload_noise_volume": 10,
     "type": "GUN",
     "name": "hypervelocity driver (SzQmod)",

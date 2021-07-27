@@ -8,15 +8,5 @@
     "description": "Weapons from Blazemod, pneumatic weapons",
     "category": "vehicles",
     "dependencies": [ "dda" ]
-  },
-  
-  
-
-
-  {
-    "type": "ITEM_BLACKLIST",
-    "items": [
-
-	]
   }
 ]

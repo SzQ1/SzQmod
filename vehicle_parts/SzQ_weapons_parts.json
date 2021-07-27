@@ -6,14 +6,13 @@
     "broken_symbol": "#",
     "description": "This heavy weapon is mounted on a turret, and can be fired from your vehicle controls."
   },
-  
-      {    "id": "mounted_coilgun",
-	"looks_like": "coilgun",
+  {
+    "id": "mounted_coilgun",
+    "looks_like": "coilgun",
     "copy-from": "turret",
     "type": "vehicle_part",
     "name": { "str": "mounted coilgun (SzQmod)" },
     "item": "coilgun",
-
     "color": "magenta",
     "broken_color": "magenta",
     "breaks_into": [ { "item": "scrap", "count": 13 }, { "item": "steel_chunk", "count": 4 }, { "item": "steel_lump", "count": 1 } ],
@@ -22,9 +21,10 @@
       "removal": { "skills": [ [ "mechanics", 3 ] ] }
     }
   },
-  
-    {    "id": "shardgun",        	 "//1": "BB",
-	"looks_like": "shardgun",
+  {
+    "id": "shardgun",
+    "//1": "BB",
+    "looks_like": "shardgun",
     "copy-from": "turret_manual_blaze",
     "type": "vehicle_part",
     "name": "splintergun (SzQmod)",
@@ -38,8 +38,9 @@
       "repair": { "skills": [ [ "mechanics", 5 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
     }
   },
-    {    "id": "vortexaccelerator",
-	"looks_like": "vortexaccelerator",
+  {
+    "id": "vortexaccelerator",
+    "looks_like": "vortexaccelerator",
     "copy-from": "turret_manual_blaze",
     "type": "vehicle_part",
     "name": "vortex accelerator (SzQmod)",
@@ -55,8 +56,9 @@
       "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "15 m", "using": [ [ "welding_standard", 5 ] ] }
     }
   },
-  
-  {    "id": "nailer",  	          "//1": "//nail" ,
+  {
+    "id": "nailer",
+    "//1": "//nail",
     "looks_like": "nailer",
     "copy-from": "turret_manual_blaze",
     "type": "vehicle_part",
@@ -71,7 +73,8 @@
       "repair": { "skills": [ [ "mechanics", 4 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
     }
   },
-  {    "id": "needler",
+  {
+    "id": "needler",
     "looks_like": "needler",
     "copy-from": "turret_manual_blaze",
     "type": "vehicle_part",
@@ -86,9 +89,10 @@
       "repair": { "skills": [ [ "mechanics", 4 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
     }
   },
-   	
-    {    "id": "bolter",  	      "//1": "//bolt" ,
-	"looks_like": "bolter",
+  {
+    "id": "bolter",
+    "//1": "//bolt",
+    "looks_like": "bolter",
     "copy-from": "turret_manual_blaze",
     "type": "vehicle_part",
     "name": "storm bolter (SzQmod)",
@@ -102,8 +106,9 @@
       "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
     }
   },
-    {    "id": "vortexbolter",
-	"looks_like": "vortexbolter",
+  {
+    "id": "vortexbolter",
+    "looks_like": "vortexbolter",
     "copy-from": "turret_manual_blaze",
     "type": "vehicle_part",
     "name": "vortex bolter turret (SzQmod)",
@@ -119,8 +124,9 @@
       "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
     }
   },
-
-  {    "id": "scorpion",		     "//1": "//hbolt" ,
+  {
+    "id": "scorpion",
+    "//1": "//hbolt",
     "looks_like": "scorpion",
     "copy-from": "turret_manual_blaze",
     "type": "vehicle_part",
@@ -135,9 +141,10 @@
       "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
     }
   },
-
-    {    "id": "rslauncher",  	 "//1": "//harpoon" ,
-	"looks_like": "rslauncher",
+  {
+    "id": "rslauncher",
+    "//1": "//harpoon",
+    "looks_like": "rslauncher",
     "copy-from": "turret_manual_blaze",
     "type": "vehicle_part",
     "name": "rotary speargun (SzQmod)",
@@ -151,8 +158,9 @@
       "repair": { "skills": [ [ "mechanics", 4 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
     }
   },
-    {    "id": "slauncher",
-	"looks_like": "slauncher",
+  {
+    "id": "slauncher",
+    "looks_like": "slauncher",
     "copy-from": "turret_manual_blaze",
     "type": "vehicle_part",
     "name": "speargun (SzQmod)",
@@ -166,9 +174,10 @@
       "repair": { "skills": [ [ "mechanics", 2 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
     }
   },
-  
-    {    "id": "tiharturret",  	 "//1": "//pebble" ,
-	"looks_like": "tiharturret",
+  {
+    "id": "tiharturret",
+    "//1": "//pebble",
+    "looks_like": "tiharturret",
     "copy-from": "turret_manual_blaze",
     "type": "vehicle_part",
     "name": "avalanche rifle (SzQmod)",
@@ -182,8 +191,9 @@
       "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
     }
   },
-    {    "id": "vortexrifle",
-	"looks_like": "vortexrifle",
+  {
+    "id": "vortexrifle",
+    "looks_like": "vortexrifle",
     "copy-from": "turret_manual_blaze",
     "type": "vehicle_part",
     "name": "vortex rifle (SzQmod)",
@@ -200,9 +210,10 @@
       "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
     }
   },
-  
-   {    "id": "mounted_rebar_rifle",		 "//1": "//metal_rail" ,
-	"looks_like": "mounted_rebar_rifle",
+  {
+    "id": "mounted_rebar_rifle",
+    "//1": "//metal_rail",
+    "looks_like": "mounted_rebar_rifle",
     "copy-from": "turret",
     "type": "vehicle_part",
     "name": { "str": "mounted ferromagnetic rail rifle (SzQmod)" },
@@ -215,7 +226,8 @@
       "removal": { "skills": [ [ "mechanics", 3 ] ] }
     }
   },
-   {    "id": "railturret",
+  {
+    "id": "railturret",
     "looks_like": "railturret",
     "copy-from": "turret_manual_blaze",
     "type": "vehicle_part",
@@ -230,7 +242,8 @@
       "repair": { "skills": [ [ "mechanics", 4 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
     }
   },
-   {    "id": "mounted_heavy_rail_rifle",
+  {
+    "id": "mounted_heavy_rail_rifle",
     "looks_like": "mounted_heavy_rail_rifle",
     "copy-from": "turret",
     "type": "vehicle_part",
@@ -244,7 +257,8 @@
       "removal": { "skills": [ [ "mechanics", 3 ] ] }
     }
   },
-   {    "id": "vortexcannon",
+  {
+    "id": "vortexcannon",
     "looks_like": "vortexcannon",
     "copy-from": "turret_manual_blaze",
     "type": "vehicle_part",
@@ -261,8 +275,9 @@
       "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "15 m", "using": [ [ "welding_standard", 5 ] ] }
     }
   },
-
-  {    "id": "cutter",		 "//1": "//ripdisk" ,
+  {
+    "id": "cutter",
+    "//1": "//ripdisk",
     "looks_like": "cutter",
     "copy-from": "turret_manual_blaze",
     "type": "vehicle_part",
@@ -280,7 +295,8 @@
     },
     "extend": { "flags": [ "EXTRA_DRAG" ] }
   },
-  {    "id": "ripper",
+  {
+    "id": "ripper",
     "looks_like": "ripper",
     "copy-from": "turret_manual_blaze",
     "type": "vehicle_part",
@@ -298,8 +314,9 @@
     },
     "extend": { "flags": [ "EXTRA_DRAG" ] }
   },
-
-  {    "id": "lasgun",		 "//1": "//Lasers" ,
+  {
+    "id": "lasgun",
+    "//1": "//Lasers",
     "looks_like": "lasgun",
     "copy-from": "turret_manual_blaze",
     "type": "vehicle_part",
@@ -314,7 +331,8 @@
       "repair": { "skills": [ [ "mechanics", 5 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
     }
   },
-  {    "id": "lasgunp",
+  {
+    "id": "lasgunp",
     "looks_like": "lasgunp",
     "copy-from": "turret_manual_blaze",
     "type": "vehicle_part",
@@ -329,7 +347,8 @@
       "repair": { "skills": [ [ "mechanics", 5 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
     }
   },
-  {    "id": "lasgunx",
+  {
+    "id": "lasgunx",
     "looks_like": "lasgunx",
     "copy-from": "turret_manual_blaze",
     "type": "vehicle_part",
@@ -344,8 +363,9 @@
       "repair": { "skills": [ [ "mechanics", 5 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
     }
   },
-
-  {    "id": "cangun",		 "//1": "//h_projectile" ,
+  {
+    "id": "cangun",
+    "//1": "//h_projectile",
     "looks_like": "cangun",
     "copy-from": "turret_manual_blaze",
     "type": "vehicle_part",
@@ -360,8 +380,9 @@
       "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
     }
   },
-
-  {    "id": "gattler",		 "//1": "//other shit" ,
+  {
+    "id": "gattler",
+    "//1": "//other shit",
     "looks_like": "gattler",
     "copy-from": "turret_manual_blaze",
     "type": "vehicle_part",
@@ -376,8 +397,8 @@
       "repair": { "skills": [ [ "mechanics", 4 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
     }
   },
-
-  {    "id": "flamethrower3",
+  {
+    "id": "flamethrower3",
     "looks_like": "flamethrower",
     "copy-from": "turret_manual_blaze",
     "type": "vehicle_part",
@@ -392,9 +413,9 @@
       "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
     },
     "extend": { "flags": [ "USE_TANKS" ] }
-  }, 
-
-  {    "id": "teslagun",
+  },
+  {
+    "id": "teslagun",
     "looks_like": "teslagun",
     "copy-from": "turret_manual_blaze",
     "type": "vehicle_part",
@@ -409,7 +430,7 @@
       "repair": { "skills": [ [ "mechanics", 2 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
     }
   },
-    {
+  {
     "id": "mounted_mininuke_launcher",
     "copy-from": "turret",
     "type": "vehicle_part",
@@ -420,5 +441,4 @@
     "breaks_into": [ { "item": "scrap", "count": 27 }, { "item": "steel_chunk", "count": 10 }, { "item": "steel_lump", "count": 6 } ],
     "requirements": { "install": { "skills": [ [ "mechanics", 5 ], [ "launcher", 3 ] ] }, "removal": { "skills": [ [ "mechanics", 3 ] ] } }
   }
-
 ]

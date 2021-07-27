@@ -1,7 +1,7 @@
 [
   {
     "abstract": "canbomb_generic",
-	"looks_like": "canbomb",
+    "looks_like": "canbomb",
     "type": "AMMO",
     "name": "IED (SzQmod)",
     "bashing": 8,
@@ -103,7 +103,7 @@
   },
   {
     "id": "harpoon",
-	"looks_like": "harpoon",
+    "looks_like": "harpoon",
     "type": "AMMO",
     "name": "harpoon (SzQmod)",
     "description": "A large spear carved from wood.  This was fashioned specifically to be fired from a compatible weapon; thus unsuitable for melee combat.",
@@ -121,7 +121,7 @@
   },
   {
     "abstract": "hbolt_generic",
-	"looks_like": "hbolt_boom",
+    "looks_like": "hbolt_boom",
     "type": "AMMO",
     "name": "IED on a bolt (SzQmod)",
     "volume": "250 ml",

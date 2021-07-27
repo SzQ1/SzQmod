@@ -1,5 +1,5 @@
 [
-      {
+  {
     "result": "ripper",
     "type": "recipe",
     "category": "CC_OTHER",
@@ -14,7 +14,7 @@
     "tools": [ [ [ "tongs", -1 ] ], [ [ "anvil", -1 ] ] ],
     "components": [ [ [ "wire", 10 ] ], [ [ "rebar", 4 ], [ "pipe", 8 ] ] ]
   },
-    {
+  {
     "result": "cutter",
     "type": "recipe",
     "category": "CC_OTHER",
@@ -29,7 +29,7 @@
     "tools": [ [ [ "tongs", -1 ] ], [ [ "anvil", -1 ] ] ],
     "components": [ [ [ "wire", 6 ] ], [ [ "rebar", 2 ], [ "pipe", 4 ] ], [ [ "metal_tank_little", 1 ] ] ]
   },
-    {
+  {
     "result": "cangun",
     "type": "recipe",
     "category": "CC_OTHER",
@@ -49,7 +49,7 @@
       [ [ "steel_chunk", 3 ], [ "scrap", 9 ] ]
     ]
   },
-    {
+  {
     "result": "gattler",
     "type": "recipe",
     "category": "CC_OTHER",
@@ -69,7 +69,7 @@
       [ [ "chain", 1 ] ]
     ]
   },
-    {
+  {
     "result": "rslauncher",
     "type": "recipe",
     "category": "CC_WEAPON",
@@ -177,7 +177,7 @@
       [ [ "bio_chain_lightning", 1 ] ]
     ]
   },
-    {
+  {
     "result": "rslauncher",
     "type": "recipe",
     "category": "CC_WEAPON",

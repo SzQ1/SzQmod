@@ -1,8 +1,7 @@
 [
- 
   {
     "id": "lasgun",
-	"looks_like": "lasgun",
+    "looks_like": "lasgun",
     "type": "GUN",
     "reload_noise_volume": 10,
     "name": "laser cannon (SzQmod)",
@@ -27,7 +26,7 @@
   },
   {
     "id": "lasgunp",
-	"looks_like": "lasgunp",
+    "looks_like": "lasgunp",
     "type": "GUN",
     "reload_noise_volume": 10,
     "name": "pulse laser (SzQmod)",
@@ -53,7 +52,7 @@
   },
   {
     "id": "lasgunx",
-	"looks_like": "lasgunx",
+    "looks_like": "lasgunx",
     "type": "GUN",
     "reload_noise_volume": 10,
     "name": "turbolaser cannon (SzQmod)",

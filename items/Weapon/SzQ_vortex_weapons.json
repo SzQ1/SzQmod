@@ -1,5 +1,5 @@
 [
-   {
+  {
     "id": "vortexaccelerator",
     "type": "GUN",
     "name": "vortex accelerator (SzQmod)",
@@ -25,7 +25,7 @@
     "ammo_effects": [ "SHOT" ],
     "flags": [ "NEVER_JAMS", "MOUNTED_GUN" ]
   },
-   {
+  {
     "id": "vortexbolter",
     "type": "GUN",
     "name": "vortex bolter (SzQmod)",
