@@ -73,6 +73,6 @@
     "ups_charges": 499,
     "valid_mod_locations": [  ],
     "ammo_effects": [ "EXPLOSIVE", "LASER", "WIDE" ],
-    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "MOUNTED_GUN", "NON-FOULING" ]
+    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "MOUNTED_GUN", "NON_FOULING" ]
   }
 ]

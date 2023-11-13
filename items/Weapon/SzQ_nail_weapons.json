@@ -86,7 +86,7 @@
     "valid_mod_locations": [  ],
     "magazine_well": 1,
     "magazines": [ [ "nail", [ "nailmag" ] ] ],
-    "flags": [ "MOUNTED_GUN", "NEVER_JAMS", "NON-FOULING" ]
+    "flags": [ "MOUNTED_GUN", "NEVER_JAMS", "NON_FOULING" ]
   },
   {
     "id": "needler",

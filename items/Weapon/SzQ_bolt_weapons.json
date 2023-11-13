@@ -11,7 +11,7 @@
     "price": "2900 USD",
     "price_postapoc": "120 USD",
     "material": [ "steel", "wood" ],
-    "flags": [ "NON-FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "NON_FOULING", "NEEDS_NO_LUBE" ],
     "skill": "rifle",
     "ammo": [ "bolt" ],
     "weight": "4110 g",

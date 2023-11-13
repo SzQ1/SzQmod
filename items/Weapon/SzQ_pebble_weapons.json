@@ -11,7 +11,7 @@
     "price": "2400 USD",
     "price_postapoc": "120 USD",
     "material": [ "steel", "wood" ],
-    "flags": [ "NON-FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "NON_FOULING", "NEEDS_NO_LUBE" ],
     "skill": "rifle",
     "ammo": [ "pebble" ],
     "weight": "4211 g",
@@ -53,6 +53,6 @@
     "magazine_well": 1,
     "magazines": [ [ "pebble", [ "pebble_hopper" ] ] ],
     "reload": 150,
-    "flags": [ "NEVER_JAMS", "MOUNTED_GUN", "NON-FOULING" ]
+    "flags": [ "NEVER_JAMS", "MOUNTED_GUN", "NON_FOULING" ]
   }
 ]
